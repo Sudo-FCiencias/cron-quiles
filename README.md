@@ -1,0 +1,351 @@
+# 🐢 Shellaquiles - Agregador de Eventos Tech México
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+
+Herramienta **open source** para centralizar múltiples feeds ICS públicos de eventos tech en México en un solo calendario unificado.
+
+## 🎯 Objetivo
+
+Consumir múltiples feeds ICS (Meetup, Luma, etc.), normalizar eventos, deduplicarlos y generar un calendario unificado para la comunidad tech mexicana.
+
+## ✨ Características
+
+- ✅ Consume múltiples feeds ICS públicos
+- ✅ Normaliza eventos (título, fecha, hora, ubicación, link, organizador)
+- ✅ Deduplicación inteligente de eventos similares
+- ✅ Manejo robusto de timezones
+- ✅ Tolerancia a feeds caídos (no rompe el proceso)
+- ✅ Tags automáticos por keywords (Python, AI, Cloud, DevOps, etc.)
+- ✅ Genera ICS unificado y JSON opcional
+- ✅ CLI simple y fácil de usar
+- ✅ **Publicación directa en Google Calendar** (opcional, requiere OAuth2)
+
+## 📋 Requisitos
+
+- Python 3.10 o superior
+- Dependencias listadas en `requirements.txt`
+
+## 🚀 Instalación
+
+1. Clona o descarga este repositorio:
+```bash
+cd events
+```
+
+2. Crea un entorno virtual (recomendado):
+```bash
+python3 -m venv venv
+source venv/bin/activate  # En Windows: venv\Scripts\activate
+```
+
+3. Instala las dependencias:
+```bash
+pip install -r requirements.txt
+```
+
+### Instalación como paquete (opcional)
+
+```bash
+pip install -e .
+```
+
+Esto instalará el paquete en modo desarrollo y podrás usar `shellaquiles-events` desde cualquier lugar.
+
+## 📖 Uso
+
+### Uso básico
+
+Ejecuta el script con la configuración por defecto:
+
+```bash
+python main.py
+```
+
+Esto generará `shellaquiles_events.ics` usando los feeds definidos en `config/feeds.yaml`.
+
+### Opciones avanzadas
+
+```bash
+# Especificar archivo de feeds personalizado
+python main.py --feeds config/mi_configuracion.yaml
+
+# Generar también archivo JSON
+python main.py --json
+
+# Personalizar nombres de archivos de salida
+python main.py --output eventos.ics --json-output eventos.json
+
+# Usar archivo de texto plano (una URL por línea)
+python main.py --feeds config/list_icals.txt
+
+# Modo verbose para debugging
+python main.py --verbose
+
+# Ajustar timeout y reintentos
+python main.py --timeout 60 --retries 3
+
+# Publicar eventos directamente en Google Calendar
+python main.py --google-calendar
+
+# Simular publicación sin publicar realmente (dry run)
+python main.py --google-calendar --dry-run
+```
+
+### Opciones completas
+
+```
+--feeds FEEDS        Archivo de configuración (YAML o TXT). Default: config/feeds.yaml
+--output OUTPUT      Nombre del archivo ICS de salida. Default: shellaquiles_events.ics
+--json               Generar también archivo JSON
+--json-output FILE   Nombre del archivo JSON. Default: shellaquiles_events.json
+--timeout SECONDS    Timeout para requests HTTP. Default: 30
+--retries N          Número máximo de reintentos. Default: 2
+--verbose            Modo verbose (más logging)
+```
+
+## 📁 Estructura del Proyecto
+
+```
+events/
+├── main.py                    # Punto de entrada CLI (raíz)
+├── src/
+│   └── shellaquiles/
+│       ├── __init__.py        # Paquete Python
+│       ├── main.py            # CLI principal
+│       └── ics_aggregator.py  # Lógica de agregación y deduplicación
+├── config/
+│   ├── feeds.yaml            # Configuración de feeds (YAML)
+│   └── list_icals.txt        # Lista alternativa de feeds (texto)
+├── docs/
+│   ├── AGENTS.md             # Especificaciones del proyecto
+│   └── PROJECT_STRUCTURE.md  # Documentación de estructura
+├── examples/
+│   └── example_event.py       # Ejemplo de formato de eventos
+├── .github/
+│   └── workflows/             # GitHub Actions
+├── requirements.txt          # Dependencias Python
+├── pyproject.toml            # Configuración del proyecto
+├── README.md                 # Esta documentación
+├── CONTRIBUTING.md           # Guía para contribuidores
+├── CHANGELOG.md              # Historial de cambios
+└── LICENSE                   # Licencia MIT
+```
+
+## ⚙️ Configuración de Feeds
+
+### Formato YAML (recomendado)
+
+Crea un archivo `feeds.yaml`:
+
+```yaml
+feeds:
+  - url: https://www.meetup.com/pythonista/events/ical
+  - url: https://www.meetup.com/ai-cdmx/events/ical
+  - url: https://api2.luma.com/ics/get?entity=calendar&id=cal-xxx
+```
+
+O formato simple:
+
+```yaml
+feeds:
+  - https://www.meetup.com/pythonista/events/ical
+  - https://www.meetup.com/ai-cdmx/events/ical
+```
+
+### Formato Texto Plano
+
+Crea un archivo de texto (ej: `list_icals.txt`) con una URL por línea:
+
+```
+https://www.meetup.com/pythonista/events/ical
+https://www.meetup.com/ai-cdmx/events/ical
+https://api2.luma.com/ics/get?entity=calendar&id=cal-xxx
+```
+
+## 🔍 Deduplicación
+
+El sistema deduplica eventos similares usando la siguiente estrategia:
+
+1. **Normalización de título**: lowercase, sin emojis, sin puntuación extra
+2. **Comparación de fecha/hora**: tolerancia de ±2 horas
+3. **Selección del mejor evento**: prioriza eventos con:
+   - URL válida
+   - Descripción más larga
+
+## 🏷️ Tags Automáticos
+
+El sistema detecta automáticamente tags basados en keywords en el título y descripción:
+
+- **python**: Python, Py, Django, Flask, FastAPI
+- **ai**: AI, Machine Learning, Deep Learning, Neural
+- **cloud**: AWS, Azure, GCP, Cloud, Serverless
+- **devops**: DevOps, Docker, Kubernetes, CI/CD, Terraform
+- **data**: Data, Big Data, Spark, Hadoop, Analytics
+- **security**: Security, Cybersecurity, Pentest
+- **mobile**: Mobile, Android, iOS, Flutter
+- **web**: Web, HTML, JavaScript, React, Vue
+- **backend**: Backend, API, REST, GraphQL
+- **frontend**: Frontend, UI, UX, Design
+
+Los tags se agregan como categorías en el ICS y están disponibles en el JSON.
+
+## 📤 Output
+
+### Archivo ICS
+
+El archivo `shellaquiles_events.ics` es un calendario estándar ICS que puedes importar en:
+- Google Calendar
+- Apple Calendar
+- Outlook
+- Cualquier cliente de calendario compatible
+
+### Archivo JSON (opcional)
+
+Si usas `--json`, se genera un archivo JSON con la estructura:
+
+```json
+{
+  "generated_at": "2024-01-15T10:30:00+00:00",
+  "total_events": 150,
+  "events": [
+    {
+      "title": "Meetup Python CDMX",
+      "description": "...",
+      "url": "https://...",
+      "location": "Ciudad de México",
+      "organizer": "Pythonista",
+      "dtstart": "2024-02-01T18:00:00-06:00",
+      "dtend": "2024-02-01T20:00:00-06:00",
+      "tags": ["python", "backend"],
+      "source": "https://www.meetup.com/pythonista/events/ical"
+    }
+  ]
+}
+```
+
+## 🛠️ Desarrollo
+
+### Ejecutar Tests
+
+```bash
+# Instalar pytest si no está instalado
+pip install pytest
+
+# Ejecutar tests
+python -m pytest tests/ -v
+```
+
+### Estructura del Código
+
+- **`src/shellaquiles/ics_aggregator.py`**: Contiene las clases principales:
+  - `EventNormalized`: Representa un evento normalizado
+  - `ICSAggregator`: Clase principal para agregar feeds
+
+- **`src/shellaquiles/main.py`**: CLI que orquesta el proceso
+
+### Extender el Sistema
+
+Para agregar nuevos tags automáticos, edita el diccionario `TAG_KEYWORDS` en `ics_aggregator.py`:
+
+```python
+TAG_KEYWORDS = {
+    'nuevo_tag': ['keyword1', 'keyword2', 'keyword3'],
+    # ...
+}
+```
+
+## 🤖 Automatización con GitHub Actions
+
+El proyecto incluye un workflow de GitHub Actions que actualiza automáticamente el calendario.
+
+### Configuración
+
+El workflow está configurado en `.github/workflows/update-events.yml` y:
+
+- ✅ Se ejecuta automáticamente cada 6 horas
+- ✅ Se puede ejecutar manualmente desde la pestaña "Actions" en GitHub
+- ✅ Se ejecuta cuando cambias `feeds.yaml` o el código
+- ✅ Hace commit y push automático de los archivos actualizados
+
+### Activar el workflow
+
+1. Haz push del workflow al repositorio:
+```bash
+git add .github/workflows/update-events.yml
+git commit -m "Add GitHub Actions workflow"
+git push
+```
+
+2. Ve a la pestaña **Actions** en GitHub para ver el workflow en acción
+
+3. Para ejecutar manualmente: **Actions** → **Update Events Calendar** → **Run workflow**
+
+### Verificar que funciona
+
+Después del primer run, deberías ver:
+- Un commit automático con los archivos `*.ics` y `*.json` generados
+- El workflow ejecutándose cada 6 horas automáticamente
+
+### Personalizar la frecuencia
+
+Edita `.github/workflows/update-events.yml` y cambia el cron:
+
+```yaml
+schedule:
+  # Cada 6 horas (actual)
+  - cron: '0 */6 * * *'
+
+  # Cada 12 horas
+  - cron: '0 */12 * * *'
+
+  # Diario a las 3 AM UTC
+  - cron: '0 3 * * *'
+```
+
+## 🐛 Troubleshooting
+
+### Un feed no se está descargando
+
+- Verifica que la URL sea accesible públicamente
+- Usa `--verbose` para ver logs detallados
+- Aumenta `--timeout` si el feed es lento
+- El proceso continúa aunque algunos feeds fallen
+
+### Eventos duplicados aparecen
+
+- Ajusta la tolerancia de tiempo en `deduplicate_events()` si es necesario
+- Revisa los logs con `--verbose` para ver qué eventos se están deduplicando
+
+### Problemas con timezones
+
+- El sistema maneja automáticamente timezones
+- Si un evento no tiene timezone, se asume UTC
+- El calendario final usa `America/Mexico_City` como timezone por defecto
+
+## 📝 Licencia
+
+Este proyecto está licenciado bajo la [MIT License](LICENSE) - ver el archivo LICENSE para más detalles.
+
+## 🤝 Contribuir
+
+¡Las contribuciones son bienvenidas! Por favor lee [CONTRIBUTING.md](CONTRIBUTING.md) para detalles sobre nuestro código de conducta y el proceso para enviar pull requests.
+
+## 🤝 Contribuciones
+
+Las contribuciones son bienvenidas. Algunas ideas:
+
+- Agregar más fuentes de feeds
+- Mejorar la estrategia de deduplicación
+- Agregar más tags automáticos
+- Mejorar el manejo de eventos recurrentes
+- Agregar filtros por tags o fechas
+
+## 📧 Contacto
+
+Para la comunidad **Shellaquiles** 🐢
+
+---
+
+**Nota**: Esta herramienta solo consume feeds ICS públicos. No requiere APIs privadas ni planes de pago.

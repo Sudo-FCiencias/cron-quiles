@@ -1,0 +1,457 @@
+"""
+ICS Aggregator - Agregador de feeds ICS públicos para eventos tech en México.
+
+Este módulo consume múltiples feeds ICS, normaliza eventos, los deduplica
+y genera un calendario unificado.
+"""
+
+import logging
+import re
+from datetime import datetime, timedelta
+from typing import Dict, List, Optional, Set
+from urllib.parse import urlparse
+
+import requests
+from dateutil import parser, tz
+from dateutil.rrule import rrulestr
+from icalendar import Calendar, Event, vText
+
+# Configurar logging
+logging.basicConfig(
+    level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
+)
+logger = logging.getLogger(__name__)
+
+
+def fix_encoding(text: str) -> str:
+    """
+    Corrige problemas comunes de codificación (mojibake).
+
+    Detecta y corrige casos donde texto UTF-8 fue interpretado como Latin-1.
+    Ejemplo: "CariÃ±o" -> "Cariño"
+
+    Args:
+        text: String que puede tener problemas de codificación
+
+    Returns:
+        String con codificación corregida
+    """
+    if not isinstance(text, str):
+        return text
+
+    # Detectar si hay caracteres de mojibake comunes
+    if "Ã" in text:
+        try:
+            # Intentar decodificar como latin-1 y recodificar como UTF-8
+            # Esto corrige el problema de mojibake
+            fixed = text.encode("latin-1").decode("utf-8")
+            return fixed
+        except (UnicodeEncodeError, UnicodeDecodeError):
+            # Si falla, devolver el texto original
+            pass
+
+    return text
+
+
+# Keywords para tags automáticos
+TAG_KEYWORDS = {
+    "python": ["python", "py", "django", "flask", "fastapi"],
+    "ai": [
+        "ai",
+        "artificial intelligence",
+        "machine learning",
+        "ml",
+        "deep learning",
+        "neural",
+    ],
+    "cloud": ["aws", "azure", "gcp", "cloud", "serverless", "lambda"],
+    "devops": [
+        "devops",
+        "docker",
+        "kubernetes",
+        "k8s",
+        "ci/cd",
+        "terraform",
+        "ansible",
+    ],
+    "data": ["data", "big data", "spark", "hadoop", "analytics", "data science"],
+    "security": ["security", "sec", "cybersecurity", "pentest", "hacking"],
+    "mobile": ["mobile", "android", "ios", "flutter", "react native"],
+    "web": ["web", "html", "javascript", "js", "react", "vue", "angular"],
+    "backend": ["backend", "api", "rest", "graphql", "microservices"],
+    "frontend": ["frontend", "front-end", "ui", "ux", "design"],
+}
+
+
+class EventNormalized:
+    """Representa un evento normalizado para comparación y deduplicación."""
+
+    def __init__(self, event: Event, source_url: str):
+        self.original_event = event
+        self.source_url = source_url
+
+        # Extraer y normalizar campos
+        self.title = self._normalize_title(event.get("summary", ""))
+        self.description = str(event.get("description", ""))
+        self.url = str(event.get("url", "")) if event.get("url") else ""
+        self.location = str(event.get("location", "")) if event.get("location") else ""
+        self.organizer = self._extract_organizer(event)
+
+        # Manejar fechas con timezone
+        self.dtstart = self._extract_datetime(event.get("dtstart"))
+        self.dtend = self._extract_datetime(event.get("dtend"))
+
+        # Calcular hash para deduplicación
+        self.hash_key = self._compute_hash()
+
+        # Tags automáticos
+        self.tags = self._extract_tags()
+
+    def _normalize_title(self, title: str) -> str:
+        """Normaliza el título: lowercase, sin emojis, sin puntuación extra."""
+        if not title:
+            return ""
+
+        # Remover emojis (caracteres Unicode fuera del rango ASCII básico)
+        title = re.sub(r"[^\x00-\x7F]+", "", title)
+
+        # Convertir a lowercase
+        title = title.lower()
+
+        # Remover puntuación extra pero mantener espacios
+        title = re.sub(r"[^\w\s-]", "", title)
+
+        # Normalizar espacios múltiples
+        title = re.sub(r"\s+", " ", title).strip()
+
+        return title
+
+    def _extract_organizer(self, event: Event) -> str:
+        """Extrae el organizador del evento."""
+        organizer = event.get("organizer")
+        if organizer:
+            if isinstance(organizer, vText):
+                return str(organizer)
+            elif hasattr(organizer, "params") and "CN" in organizer.params:
+                return organizer.params["CN"]
+        return ""
+
+    def _extract_datetime(self, dt_value) -> Optional[datetime]:
+        """Extrae datetime de un valor de evento, manejando timezones."""
+        if not dt_value:
+            return None
+
+        if isinstance(dt_value.dt, datetime):
+            dt = dt_value.dt
+            # Si no tiene timezone, asumir UTC
+            if dt.tzinfo is None:
+                dt = dt.replace(tzinfo=tz.UTC)
+            return dt
+        elif hasattr(dt_value, "dt"):
+            # Fecha sin hora
+            return None
+
+        return None
+
+    def _compute_hash(self) -> str:
+        """Calcula un hash para deduplicación basado en título y fecha."""
+        if not self.dtstart:
+            return f"{self.title}_no_date"
+
+        # Redondear a la hora más cercana para tolerancia de ±2 horas
+        hour_rounded = self.dtstart.replace(minute=0, second=0, microsecond=0)
+        return f"{self.title}_{hour_rounded.isoformat()}"
+
+    def _extract_tags(self) -> Set[str]:
+        """Extrae tags automáticos basados en keywords."""
+        tags = set()
+        text_to_check = f"{self.title} {self.description}".lower()
+
+        for tag, keywords in TAG_KEYWORDS.items():
+            for keyword in keywords:
+                if keyword.lower() in text_to_check:
+                    tags.add(tag)
+                    break
+
+        return tags
+
+    def to_dict(self) -> Dict:
+        """Convierte el evento normalizado a diccionario para JSON."""
+        return {
+            "title": str(self.original_event.get("summary", "")),
+            "description": self.description,
+            "url": self.url,
+            "location": self.location,
+            "organizer": self.organizer,
+            "dtstart": self.dtstart.isoformat() if self.dtstart else None,
+            "dtend": self.dtend.isoformat() if self.dtend else None,
+            "tags": list(self.tags),
+            "source": self.source_url,
+        }
+
+    def to_ical_event(self) -> Event:
+        """Convierte el evento normalizado de vuelta a Event de icalendar."""
+        event = Event()
+
+        # Copiar campos del evento original con manejo correcto de codificación
+        for key in [
+            "summary",
+            "description",
+            "url",
+            "location",
+            "organizer",
+            "dtstart",
+            "dtend",
+            "uid",
+            "dtstamp",
+            "created",
+            "last-modified",
+        ]:
+            value = self.original_event.get(key)
+            if value:
+                # Corregir problemas de codificación en strings
+                if isinstance(value, str):
+                    value = fix_encoding(value)
+                elif isinstance(value, vText):
+                    # vText también puede tener problemas de codificación
+                    fixed_str = fix_encoding(str(value))
+                    value = vText(fixed_str)
+                event.add(key, value)
+
+        # Agregar tags como categorías si existen
+        if self.tags:
+            event.add("categories", list(self.tags))
+
+        return event
+
+
+class ICSAggregator:
+    """Agregador principal de feeds ICS."""
+
+    def __init__(self, timeout: int = 30, max_retries: int = 2):
+        """
+        Inicializa el agregador.
+
+        Args:
+            timeout: Timeout en segundos para requests HTTP
+            max_retries: Número máximo de reintentos por feed
+        """
+        self.timeout = timeout
+        self.max_retries = max_retries
+        self.session = requests.Session()
+        self.session.headers.update({"User-Agent": "Shellaquiles-ICS-Aggregator/1.0"})
+
+    def fetch_feed(self, url: str) -> Optional[Calendar]:
+        """
+        Descarga y parsea un feed ICS.
+
+        Args:
+            url: URL del feed ICS
+
+        Returns:
+            Calendar object o None si falla
+        """
+        for attempt in range(self.max_retries):
+            try:
+                logger.info(f"Fetching feed: {url} (attempt {attempt + 1})")
+                response = self.session.get(url, timeout=self.timeout)
+                response.raise_for_status()
+
+                # Asegurar codificación UTF-8
+                response.encoding = response.apparent_encoding or "utf-8"
+                calendar = Calendar.from_ical(response.text)
+                logger.info(f"Successfully parsed feed: {url}")
+                return calendar
+
+            except requests.exceptions.RequestException as e:
+                logger.warning(f"Error fetching {url} (attempt {attempt + 1}): {e}")
+                if attempt == self.max_retries - 1:
+                    logger.error(
+                        f"Failed to fetch feed after {self.max_retries} attempts: {url}"
+                    )
+                    return None
+            except Exception as e:
+                logger.error(f"Error parsing feed {url}: {e}")
+                return None
+
+        return None
+
+    def extract_events(
+        self, calendar: Calendar, source_url: str
+    ) -> List[EventNormalized]:
+        """
+        Extrae y normaliza eventos de un calendario.
+
+        Args:
+            calendar: Calendar object de icalendar
+            source_url: URL de origen del feed
+
+        Returns:
+            Lista de eventos normalizados
+        """
+        events = []
+
+        for component in calendar.walk():
+            if component.name == "VEVENT":
+                try:
+                    # Ignorar eventos cancelados
+                    status = component.get("status", "").upper()
+                    if status == "CANCELLED":
+                        logger.debug(
+                            f"Skipping cancelled event: {component.get('summary', '')}"
+                        )
+                        continue
+
+                    event_norm = EventNormalized(component, source_url)
+                    events.append(event_norm)
+
+                except Exception as e:
+                    logger.warning(f"Error processing event from {source_url}: {e}")
+                    continue
+
+        logger.info(f"Extracted {len(events)} events from {source_url}")
+        return events
+
+    def deduplicate_events(
+        self, events: List[EventNormalized], time_tolerance_hours: int = 2
+    ) -> List[EventNormalized]:
+        """
+        Deduplica eventos similares.
+
+        Estrategia:
+        1. Agrupa por hash_key (título normalizado + hora redondeada)
+        2. Para cada grupo, selecciona el mejor evento según:
+           - URL válida
+           - Descripción más larga
+
+        Args:
+            events: Lista de eventos normalizados
+            time_tolerance_hours: Tolerancia en horas para considerar eventos duplicados
+
+        Returns:
+            Lista de eventos deduplicados
+        """
+        # Agrupar por hash_key
+        events_by_hash: Dict[str, List[EventNormalized]] = {}
+
+        for event in events:
+            hash_key = event.hash_key
+            if hash_key not in events_by_hash:
+                events_by_hash[hash_key] = []
+            events_by_hash[hash_key].append(event)
+
+        # Seleccionar el mejor evento de cada grupo
+        deduplicated = []
+
+        for hash_key, group in events_by_hash.items():
+            if len(group) == 1:
+                deduplicated.append(group[0])
+            else:
+                # Ordenar por prioridad: URL válida > descripción más larga
+                group.sort(
+                    key=lambda e: (
+                        bool(e.url and e.url.startswith("http")),  # URL válida
+                        len(e.description),  # Descripción más larga
+                    ),
+                    reverse=True,
+                )
+
+                selected = group[0]
+                logger.info(
+                    f"Deduplicated: kept '{selected.original_event.get('summary', '')}' "
+                    f"from {len(group)} similar events"
+                )
+                deduplicated.append(selected)
+
+        logger.info(f"Deduplication: {len(events)} -> {len(deduplicated)} events")
+        return deduplicated
+
+    def aggregate_feeds(self, feed_urls: List[str]) -> List[EventNormalized]:
+        """
+        Agrega múltiples feeds ICS.
+
+        Args:
+            feed_urls: Lista de URLs de feeds ICS
+
+        Returns:
+            Lista de eventos normalizados y deduplicados
+        """
+        all_events = []
+
+        for url in feed_urls:
+            calendar = self.fetch_feed(url)
+            if calendar:
+                events = self.extract_events(calendar, url)
+                all_events.extend(events)
+
+        # Deduplicar
+        deduplicated = self.deduplicate_events(all_events)
+
+        # Ordenar por fecha
+        deduplicated.sort(
+            key=lambda e: e.dtstart or datetime.max.replace(tzinfo=tz.UTC)
+        )
+
+        return deduplicated
+
+    def generate_ics(
+        self,
+        events: List[EventNormalized],
+        output_file: str = "shellaquiles_events.ics",
+    ) -> str:
+        """
+        Genera un archivo ICS unificado.
+
+        Args:
+            events: Lista de eventos normalizados
+            output_file: Nombre del archivo de salida
+
+        Returns:
+            Ruta del archivo generado
+        """
+        calendar = Calendar()
+        calendar.add("prodid", "-//Shellaquiles//ICS Aggregator//EN")
+        calendar.add("version", "2.0")
+        calendar.add("calscale", "GREGORIAN")
+        calendar.add("X-WR-CALNAME", "Shellaquiles - Eventos Tech México")
+        calendar.add("X-WR-CALDESC", "Calendario unificado de eventos tech en México")
+        calendar.add("X-WR-TIMEZONE", "America/Mexico_City")
+
+        for event_norm in events:
+            event = event_norm.to_ical_event()
+            calendar.add_component(event)
+
+        with open(output_file, "wb") as f:
+            f.write(calendar.to_ical())
+
+        logger.info(f"Generated ICS file: {output_file} with {len(events)} events")
+        return output_file
+
+    def generate_json(
+        self,
+        events: List[EventNormalized],
+        output_file: str = "shellaquiles_events.json",
+    ) -> str:
+        """
+        Genera un archivo JSON con los eventos.
+
+        Args:
+            events: Lista de eventos normalizados
+            output_file: Nombre del archivo de salida
+
+        Returns:
+            Ruta del archivo generado
+        """
+        import json
+
+        events_data = {
+            "generated_at": datetime.now(tz.UTC).isoformat(),
+            "total_events": len(events),
+            "events": [event.to_dict() for event in events],
+        }
+
+        with open(output_file, "w", encoding="utf-8") as f:
+            json.dump(events_data, f, indent=2, ensure_ascii=False)
+
+        logger.info(f"Generated JSON file: {output_file} with {len(events)} events")
+        return output_file

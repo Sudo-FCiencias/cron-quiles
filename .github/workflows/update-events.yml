@@ -1,0 +1,61 @@
+name: Update Events Calendar
+
+on:
+  schedule:
+    # Ejecutar cada 6 horas (00:00, 06:00, 12:00, 18:00 UTC)
+    - cron: '0 */6 * * *'
+  workflow_dispatch:  # Permite ejecución manual desde GitHub UI
+  push:
+    branches:
+      - main
+      - master
+    paths:
+      - 'config/feeds.yaml'
+      - 'config/list_icals.txt'
+      - 'src/shellaquiles/ics_aggregator.py'
+      - 'src/shellaquiles/main.py'
+      - 'main.py'
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Generate calendar
+        run: |
+          python main.py --json
+        working-directory: ${{ github.workspace }}
+
+      - name: Check for changes
+        id: verify-changed-files
+        run: |
+          if [ -n "$(git status --porcelain *.ics *.json 2>/dev/null)" ]; then
+            echo "changed=true" >> $GITHUB_OUTPUT
+          else
+            echo "changed=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit and push changes
+        if: steps.verify-changed-files.outputs.changed == 'true'
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add *.ics *.json
+          git commit -m "🤖 Auto-update: Refresh events calendar [skip ci]"
+          git push
