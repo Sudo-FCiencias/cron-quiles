@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-29T18:05:12.677190+00:00",
+  "generated_at": "2025-12-29T18:19:13.424581+00:00",
   "total_events": 206,
   "events": [
     {
@@ -135,8 +135,8 @@
       "dtstart": "2024-10-21T19:00:00+00:00",
       "dtend": "2024-10-21T22:00:00+00:00",
       "tags": [
-        "ai",
-        "web"
+        "web",
+        "ai"
       ],
       "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu"
     },
@@ -308,8 +308,8 @@
       "tags": [
         "ai",
         "cloud",
-        "data",
-        "mobile"
+        "mobile",
+        "data"
       ],
       "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu"
     },
@@ -335,8 +335,8 @@
       "dtstart": "2024-10-22T15:00:00+00:00",
       "dtend": "2024-10-22T18:00:00+00:00",
       "tags": [
-        "security",
-        "ai"
+        "ai",
+        "security"
       ],
       "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu"
     },
@@ -728,9 +728,9 @@
       "dtstart": "2024-10-23T15:30:00+00:00",
       "dtend": "2024-10-23T17:30:00+00:00",
       "tags": [
+        "web",
         "ai",
-        "frontend",
-        "web"
+        "frontend"
       ],
       "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu"
     },
@@ -932,9 +932,9 @@
       "dtstart": "2024-10-23T22:30:00+00:00",
       "dtend": "2024-10-24T00:30:00+00:00",
       "tags": [
+        "web",
         "ai",
         "cloud",
-        "web",
         "frontend"
       ],
       "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu"
@@ -1044,9 +1044,9 @@
       "dtstart": "2024-10-24T00:00:00+00:00",
       "dtend": "2024-10-24T03:00:00+00:00",
       "tags": [
-        "frontend",
+        "python",
         "backend",
-        "python"
+        "frontend"
       ],
       "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu"
     },
@@ -1426,8 +1426,8 @@
       "dtstart": "2024-10-25T00:00:00+00:00",
       "dtend": "2024-10-25T04:30:00+00:00",
       "tags": [
-        "frontend",
-        "mobile"
+        "mobile",
+        "frontend"
       ],
       "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu"
     },
@@ -1731,8 +1731,8 @@
       "dtstart": "2024-10-25T23:00:00+00:00",
       "dtend": "2024-10-26T03:00:00+00:00",
       "tags": [
-        "security",
-        "ai"
+        "ai",
+        "security"
       ],
       "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu"
     },
@@ -2491,10 +2491,10 @@
       "dtstart": "2026-01-08T10:00:00-06:00",
       "dtend": "2026-01-08T11:00:00-06:00",
       "tags": [
-        "security",
         "ai",
-        "frontend",
-        "backend"
+        "security",
+        "backend",
+        "frontend"
       ],
       "source": "https://www.meetup.com/kong-mexico-city/events/ical"
     },
@@ -2507,11 +2507,11 @@
       "dtstart": "2026-01-20T18:00:00-06:00",
       "dtend": "2026-01-20T20:00:00-06:00",
       "tags": [
-        "web",
         "backend",
+        "frontend",
         "ai",
         "security",
-        "frontend"
+        "web"
       ],
       "source": "https://www.meetup.com/ai-cdmx/events/ical"
     },
