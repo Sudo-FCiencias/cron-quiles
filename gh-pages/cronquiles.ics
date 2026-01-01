@@ -9,7 +9,7 @@ BEGIN:VEVENT
 SUMMARY:Mexico Tech Week 2025|M8l Event 2|México|
 DTSTART:20240501T081000Z
 DTEND:20240501T091000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-19j5sTGtakvEkvo@events.lu.ma
 DESCRIPTION:Get up-to-date information at: https://luma.com/9reeuyax\n\nAd
  dress:\n\n\nHosted by Mexico Tech Week
@@ -20,7 +20,7 @@ SUMMARY:Mexico Tech Week 2025|Multiple Ways For Automation Testing|Jal.|45
  129 Zapopan
 DTSTART:20240712T000000Z
 DTEND:20240712T030000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-U3IIFKbHDLeSQiZ@events.lu.ma
 DESCRIPTION:Get up-to-date information at: https://luma.com/x1r4az0n\n\nAd
  dress:\nAv. Patria 888\, Piso 4\, Col. Loma Real\, 45129 Zapopan\, Jal.\n\
@@ -32,7 +32,7 @@ BEGIN:VEVENT
 SUMMARY:Mexico Tech Week 2025|Conexión de visionarios|Online
 DTSTART:20241009T213000Z
 DTEND:20241010T020000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-gOFaMxB57C3e7Z5@events.lu.ma
 CATEGORIES:ai,mobile
 DESCRIPTION:Get up-to-date information at: https://luma.com/ejamvz7l\n\nAd
@@ -46,7 +46,7 @@ SUMMARY:Mexico Tech Week 2025|Startups Running Club - ASDeporte Invita|Mé
  xico|CDMX
 DTSTART:20241021T123000Z
 DTEND:20241021T143000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-jP3fElfKDBmmAOf@events.lu.ma
 DESCRIPTION:Get up-to-date information at: https://luma.com/zncyaaun\n\nAd
  dress:\nGoogle Mexico City\nCiudad de México\, Ciudad de México\nMexico\
@@ -61,7 +61,7 @@ SUMMARY:Mexico Tech Week 2025|Amela & Carpe Morning Club: Connect with fem
  ale founders|México|CDMX
 DTSTART:20241021T140000Z
 DTEND:20241021T160000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-yulZJ5c8jsRicwq@events.lu.ma
 CATEGORIES:ai
 DESCRIPTION:Get up-to-date information at: https://luma.com/rve02fjv\n\nAd
@@ -76,7 +76,7 @@ SUMMARY:Mexico Tech Week 2025|Desayuno Ejecutivo: Integrando AI de forma c
  onfiable y escalable en las empresas|Online
 DTSTART:20241021T150000Z
 DTEND:20241021T163000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-sFB8kaucYlfCMFG@events.lu.ma
 CATEGORIES:ai
 DESCRIPTION:Get up-to-date information at: https://luma.com/f9yx7hoc\n\nAd
@@ -88,7 +88,7 @@ BEGIN:VEVENT
 SUMMARY:Mexico Tech Week 2025|Generative ¡Aí! Revolución|México|CDMX
 DTSTART:20241021T150000Z
 DTEND:20241021T180000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-ZqOIKVLjsk9qH5G@events.lu.ma
 DESCRIPTION:Get up-to-date information at: https://luma.com/jziomo5e\n\nAd
  dress:\nGoogle Mexico City\nCiudad de México\, Ciudad de México\nMexico\
@@ -103,7 +103,7 @@ SUMMARY:Mexico Tech Week 2025|Healthtech Visionaries: Opportunities in Wom
  en’s Health|Online
 DTSTART:20241021T163000Z
 DTEND:20241021T190000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-23JGR4FDQOYnnxU@events.lu.ma
 CATEGORIES:ai
 DESCRIPTION:Get up-to-date information at: https://luma.com/sscoy6u2\n\nAd
@@ -118,7 +118,7 @@ SUMMARY:Mexico Tech Week 2025|Panel Belvo: Superando el efectivo: retos y
  o|CDMX
 DTSTART:20241021T170000Z
 DTEND:20241021T180000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-sNmAffFCfAmHUva@events.lu.ma
 CATEGORIES:ai
 DESCRIPTION:Get up-to-date information at: https://luma.com/46ml624p\n\nAd
@@ -134,9 +134,9 @@ SUMMARY:Mexico Tech Week 2025|Mastering Fundraising: Building a Strong Fou
  ndation for Growth|México|CDMX
 DTSTART:20241021T173000Z
 DTEND:20241021T200000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-5IRz4ca0xxuzWzX@events.lu.ma
-CATEGORIES:frontend,ai
+CATEGORIES:ai,frontend
 DESCRIPTION:Get up-to-date information at: https://luma.com/1vedoug6\n\nAd
  dress:\nBBVA\nFloor 33rd\nCiudad de México\, Ciudad de México\nMexico\n\
  nHosted by Mexico Tech Week & Andrea López
@@ -149,7 +149,7 @@ SUMMARY:Mexico Tech Week 2025|Fintech Frenzy Future: Web3 Panel & Burger L
  unch|Online
 DTSTART:20241021T190000Z
 DTEND:20241021T220000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-5dRHnfUYx1DmFSs@events.lu.ma
 CATEGORIES:ai,web
 DESCRIPTION:Get up-to-date information at: https://luma.com/vadiMXTW2024\n
@@ -162,7 +162,7 @@ BEGIN:VEVENT
 SUMMARY:Mexico Tech Week 2025|Tacos\, Beer and Gen AI|Online
 DTSTART:20241021T193000Z
 DTEND:20241021T220000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-n0dDRmJekPTefZT@events.lu.ma
 CATEGORIES:ai
 DESCRIPTION:Get up-to-date information at: https://luma.com/heroguest\n\nA
@@ -176,9 +176,9 @@ SUMMARY:Mexico Tech Week 2025|Fintech Feast:  Luncheon with Pygma\, Master
  card\, Google & This Week in Fintech|Online
 DTSTART:20241021T210000Z
 DTEND:20241021T230000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-oG3mEBkbkC9aNF2@events.lu.ma
-CATEGORIES:python,ai
+CATEGORIES:ai,python
 DESCRIPTION:Get up-to-date information at: https://luma.com/8o2qc0sg\n\nAd
  dress:\nCheck event page for more details.\n\nHosted by Mexico Tech Week\,
   Andrés Cano & Jorge Gonzalez Soler
@@ -189,7 +189,7 @@ BEGIN:VEVENT
 SUMMARY:Mexico Tech Week 2025|Emprelatam Connect Day CDMX|Online
 DTSTART:20241021T213000Z
 DTEND:20241022T020000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-1CF1uTmfQzCdnQi@events.lu.ma
 CATEGORIES:ai
 DESCRIPTION:Get up-to-date information at: https://luma.com/rk2rp5gp\n\nAd
@@ -203,9 +203,9 @@ SUMMARY:Mexico Tech Week 2025|Founders & Drinks by Startup Grind #MexicoTe
  chWeek|Online
 DTSTART:20241021T230000Z
 DTEND:20241022T010000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-WJlDVLoLvw2fy19@events.lu.ma
-CATEGORIES:frontend,ai
+CATEGORIES:ai,frontend
 DESCRIPTION:Get up-to-date information at: https://luma.com/cranm43m\n\nAd
  dress:\nCheck event page for more details.\n\nHosted by Mexico Tech Week\,
   Guillermo Vizcaino & Carlos Zárate
@@ -217,7 +217,7 @@ SUMMARY:Mexico Tech Week 2025|Diving deep on AI in Mexico: In Conversation
   with Rest of World|Online
 DTSTART:20241021T230000Z
 DTEND:20241022T020000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-ErVbqmjjBWGGB60@events.lu.ma
 CATEGORIES:ai,backend
 DESCRIPTION:Get up-to-date information at: https://luma.com/2ts08m45\n\nAd
@@ -231,7 +231,7 @@ SUMMARY:Mexico Tech Week 2025|Fintech panel & Mixer / Citibanamex & Latin
  Leap|Online
 DTSTART:20241022T010000Z
 DTEND:20241022T030000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-nEybxHSpeEO0Idy@events.lu.ma
 CATEGORIES:ai
 DESCRIPTION:Get up-to-date information at: https://luma.com/bzl2ht1u\n\nAd
@@ -245,7 +245,7 @@ SUMMARY:Mexico Tech Week 2025|Official Mexico Tech Week Kickoff by Zillow
  & AWS Startups|Online
 DTSTART:20241022T010000Z
 DTEND:20241022T040000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-4rq7WL1BgyZuTKF@events.lu.ma
 CATEGORIES:ai,cloud
 DESCRIPTION:Get up-to-date information at: https://luma.com/2jap9weq\n\nAd
@@ -258,7 +258,7 @@ BEGIN:VEVENT
 SUMMARY:Mexico Tech Week 2025|KASZEK Day|Online
 DTSTART:20241022T133000Z
 DTEND:20241022T230000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-vrmmh3dwvfJdWJC@events.lu.ma
 CATEGORIES:ai
 DESCRIPTION:Get up-to-date information at: https://luma.com/kaszekmtw2024\
@@ -272,7 +272,7 @@ SUMMARY:Mexico Tech Week 2025|AWS Startups + Síclo + Cosmic | Fitness & T
  ech sessions @ Síclo|Online
 DTSTART:20241022T134500Z
 DTEND:20241022T153000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-LKnvTueqAhLdeKs@events.lu.ma
 CATEGORIES:ai,cloud
 DESCRIPTION:Get up-to-date information at: https://luma.com/fehc1pqz\n\nAd
@@ -286,7 +286,7 @@ SUMMARY:Mexico Tech Week 2025|Finance for Hypergrowth - Measure What Matte
  rs|México|CDMX
 DTSTART:20241022T143000Z
 DTEND:20241022T153000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-fdpGgtPsbSv9jxY@events.lu.ma
 DESCRIPTION:Get up-to-date information at: https://luma.com/9zgfnaxv\n\nAd
  dress:\nBUNA - La Tostadora\nCiudad de México\, Ciudad de México\nMexico
@@ -300,7 +300,7 @@ SUMMARY:Mexico Tech Week 2025|MXTW: Transformación Digital Para Fundadora
  s No Técnicos|México|CDMX
 DTSTART:20241022T143000Z
 DTEND:20241022T190000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-rj5hRn6N6gUZFI0@events.lu.ma
 CATEGORIES:python
 DESCRIPTION:Get up-to-date information at: https://luma.com/j0opyj2u\n\nAd
@@ -315,7 +315,7 @@ BEGIN:VEVENT
 SUMMARY:Mexico Tech Week 2025|VNTR Investors Roundtable Mexico City|Online
 DTSTART:20241022T143000Z
 DTEND:20241022T183000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-Owc56LloKWTglsC@events.lu.ma
 DESCRIPTION:Get up-to-date information at: https://luma.com/qhozx2sx\n\nAd
  dress:\nWill be disclosed with approved guests\n\nHosted by Yuri Rabinovic
@@ -328,9 +328,9 @@ SUMMARY:Mexico Tech Week 2025|Aws y  Merlin Data Quality invitan a Desayun
  o presencial: ¿Cómo convertir datos en negocios rentables?|Online
 DTSTART:20241022T150000Z
 DTEND:20241022T170000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-HmpubVmGSTUSmoK@events.lu.ma
-CATEGORIES:data,mobile,ai,cloud
+CATEGORIES:ai,mobile,data,cloud
 DESCRIPTION:Get up-to-date information at: https://luma.com/zw6btxfv\n\nAd
  dress:\nCheck event page for more details.\n\nHosted by Mexico Tech Week &
   5 others
@@ -342,7 +342,7 @@ SUMMARY:Mexico Tech Week 2025|Desayuno Ejecutivo: Potencia tus Reportes de
   Sustentabilidad con AI|Online
 DTSTART:20241022T150000Z
 DTEND:20241022T163000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-neKJKsHJ2Rb23Pl@events.lu.ma
 CATEGORIES:ai
 DESCRIPTION:Get up-to-date information at: https://luma.com/jbj63hw1\n\nAd
@@ -355,9 +355,9 @@ SUMMARY:Mexico Tech Week 2025|Amela\, Agora & Fan Trivia: Hacking Entrepre
  neurship 👩🏻‍💻 | CDMX|Online
 DTSTART:20241022T150000Z
 DTEND:20241022T180000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-dKvbnL8yOplVwMU@events.lu.ma
-CATEGORIES:security,ai
+CATEGORIES:ai,security
 DESCRIPTION:Get up-to-date information at: https://luma.com/iccowu0y\n\nAd
  dress:\nCheck event page for more details.\n\nHosted by Mexico Tech Week\,
   Andrea Román & Anais Cisneros
@@ -369,7 +369,7 @@ SUMMARY:Mexico Tech Week 2025|Michelin Star Culinary Tour ✴✴✴ CDMX|M
  éxico|
 DTSTART:20241022T150000Z
 DTEND:20241023T040000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-uaUKxn2OCTjIVd5@events.lu.ma
 CATEGORIES:frontend
 DESCRIPTION:Get up-to-date information at: https://luma.com/ux91ykez\n\nAd
@@ -380,7 +380,7 @@ BEGIN:VEVENT
 SUMMARY:Mexico Tech Week 2025|AWS Startups | GenAI Workshop|México|CDMX
 DTSTART:20241022T150000Z
 DTEND:20241022T170000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-e8wdLAtmqFSSOki@events.lu.ma
 CATEGORIES:ai,cloud
 DESCRIPTION:Get up-to-date information at: https://luma.com/ytcxgpit\n\nAd
@@ -395,9 +395,9 @@ SUMMARY:Mexico Tech Week 2025|Ganas Ventures Coffee 🇲🇽  #MexicoTechW
  eek|Online
 DTSTART:20241022T163000Z
 DTEND:20241022T183000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-4iLzZ8INj7mtHLu@events.lu.ma
-CATEGORIES:frontend,ai
+CATEGORIES:ai,frontend
 DESCRIPTION:Get up-to-date information at: https://luma.com/hknigmzv\n\nAd
  dress:\nCheck event page for more details.\n\nHosted by Mexico Tech Week &
   Guillermo Vizcaino
@@ -409,7 +409,7 @@ SUMMARY:Mexico Tech Week 2025|Contratar para crecer: cuándo y cómo incor
  porar roles ejecutivos para impulsar tu Startup|México|CDMX
 DTSTART:20241022T170000Z
 DTEND:20241022T183000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-DPIXmXxYetwu3gX@events.lu.ma
 DESCRIPTION:Get up-to-date information at: https://luma.com/mvzw73l4\n\nAd
  dress:\nThe Square at Corporativo Neuchatel\nCiudad de México\, Ciudad de
@@ -425,9 +425,9 @@ SUMMARY:Mexico Tech Week 2025|Why USA\, why now ? Accelerating LatAm | pyg
  ma & Select USA|Online
 DTSTART:20241022T190000Z
 DTEND:20241022T220000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-JVDR7NXRlfzaTcg@events.lu.ma
-CATEGORIES:python,ai
+CATEGORIES:ai,python
 DESCRIPTION:Get up-to-date information at: https://luma.com/v49bw2fj\n\nAd
  dress:\nCheck event page for more details.\n\nHosted by Mexico Tech Week &
   4 others
@@ -439,7 +439,7 @@ SUMMARY:Mexico Tech Week 2025|Platanus Day 🍌 - pitches\, pints and peta
  nca|Online
 DTSTART:20241022T210000Z
 DTEND:20241023T010000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-ahCw6jZTcORPx7z@events.lu.ma
 CATEGORIES:ai
 DESCRIPTION:Get up-to-date information at: https://luma.com/platanus-day\n
@@ -453,7 +453,7 @@ SUMMARY:Mexico Tech Week 2025|AI uses in Proptech - live examples & beers
  by  REACH\, PULPPO\, ALOHOME & SPOT2|Online
 DTSTART:20241022T220000Z
 DTEND:20241023T010000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-LuqFMYu17uALSkb@events.lu.ma
 CATEGORIES:ai
 DESCRIPTION:Get up-to-date information at: https://luma.com/psu19q5p\n\nAd
@@ -467,9 +467,9 @@ SUMMARY:Mexico Tech Week 2025|AWS Startups + Clouxer | Tips para un proces
  o de Due Diligence técnico exitoso|Online
 DTSTART:20241022T230000Z
 DTEND:20241023T020000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-ykJjG1L8EMOOJVP@events.lu.ma
-CATEGORIES:frontend,ai,cloud
+CATEGORIES:ai,cloud,frontend
 DESCRIPTION:Get up-to-date information at: https://luma.com/633u6r4v\n\nAd
  dress:\nCheck event page for more details.\n\nHosted by Mexico Tech Week &
   3 others
@@ -481,7 +481,7 @@ SUMMARY:Mexico Tech Week 2025|Emerging Managers & LP meetup #MexicoTechWee
  k|Online
 DTSTART:20241022T233000Z
 DTEND:20241023T030000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-XwRczbnWHFfLXPK@events.lu.ma
 CATEGORIES:ai
 DESCRIPTION:Get up-to-date information at: https://luma.com/ev1tas7v\n\nAd
@@ -494,7 +494,7 @@ BEGIN:VEVENT
 SUMMARY:Mexico Tech Week 2025|AI for Devs|Online
 DTSTART:20241023T000000Z
 DTEND:20241023T010000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-tPsCHgtWHxx5GsJ@events.lu.ma
 CATEGORIES:ai
 DESCRIPTION:Get up-to-date information at: https://luma.com/soyhenry\n\nHo
@@ -507,7 +507,7 @@ SUMMARY:Mexico Tech Week 2025|The AORA Model: How Startups can use Social
  Impact as a  Competitive Advantage|Online
 DTSTART:20241023T000000Z
 DTEND:20241023T010000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-JyNlPZhKKSXkkXG@events.lu.ma
 DESCRIPTION:Get up-to-date information at: https://luma.com/n81oj29u\n\nHo
  sted by Mexico Tech Week & Luciano Moya
@@ -519,7 +519,7 @@ SUMMARY:Mexico Tech Week 2025|Networking Cocktail & Invitational Party by
  Capital One|México|CDMX
 DTSTART:20241023T000000Z
 DTEND:20241023T040000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-vkLm9W614DXPGOm@events.lu.ma
 CATEGORIES:ai,backend
 DESCRIPTION:Get up-to-date information at: https://luma.com/5upe1x94\n\nAd
@@ -534,7 +534,7 @@ SUMMARY:Mexico Tech Week 2025|Tech Nights: Retos de escalar SaaS en Latino
  américa.|México|CDMX
 DTSTART:20241023T000000Z
 DTEND:20241023T040000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-Mx6CYs4U2ae85I6@events.lu.ma
 DESCRIPTION:Get up-to-date information at: https://luma.com/jl3q7igg\n\nAd
  dress:\nHaab Project Condesa\nCiudad de México\, Ciudad de México\nMexic
@@ -548,9 +548,9 @@ SUMMARY:Mexico Tech Week 2025|Entendiendo los modelos de IA/GenAI y cómo
  aplicarnos en las empresas.|Online
 DTSTART:20241023T000000Z
 DTEND:20241023T020000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-YRKbgXoHVJacXli@events.lu.ma
-CATEGORIES:frontend,ai
+CATEGORIES:ai,frontend
 DESCRIPTION:Get up-to-date information at: https://luma.com/w71txum2\n\nAd
  dress:\nCheck event page for more details.\n\nHosted by Mexico Tech Week &
   Israel Cauich Viñas
@@ -562,7 +562,7 @@ SUMMARY:Mexico Tech Week 2025|International Community in Mexico: Unlocking
   Professional\, Economic\, and Cultural Opportunities|México|CDMX
 DTSTART:20241023T000000Z
 DTEND:20241023T023000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-i4d8xU2OjmmASPx@events.lu.ma
 DESCRIPTION:Get up-to-date information at: https://luma.com/qmsds6o6\n\nAd
  dress:\nCoffeefy Workafe - WTC\nCiudad de México\, Ciudad de México\nMex
@@ -575,7 +575,7 @@ BEGIN:VEVENT
 SUMMARY:Mexico Tech Week 2025|Los mejores Podcast de LATAM en VIVO|Online
 DTSTART:20241023T000000Z
 DTEND:20241023T030000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-f0TlMWpWERxE46J@events.lu.ma
 CATEGORIES:ai
 DESCRIPTION:Get up-to-date information at: https://luma.com/u60kt96o\n\nAd
@@ -589,7 +589,7 @@ SUMMARY:Mexico Tech Week 2025|TWIF Fintech Mixer for Founders\, Operators
  & VCs|México|CDMX
 DTSTART:20241023T000000Z
 DTEND:20241023T040000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-sGrLgcWbdwYxRyJ@events.lu.ma
 DESCRIPTION:Get up-to-date information at: https://luma.com/synjm1uw\n\nAd
  dress:\nCarajillo\nCiudad de México\, Ciudad de México\nMexico\n\nHosted
@@ -602,7 +602,7 @@ BEGIN:VEVENT
 SUMMARY:Mexico Tech Week 2025|FinTech on the Bitcoin Blockchain|Online
 DTSTART:20241023T003000Z
 DTEND:20241023T033000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-ZRF8gxKFF0UOHqx@events.lu.ma
 CATEGORIES:ai
 DESCRIPTION:Get up-to-date information at: https://luma.com/lya21xcf\n\nAd
@@ -616,7 +616,7 @@ SUMMARY:Mexico Tech Week 2025|Very.Fun Night: Stand-Up Comedy Open Mic|Onl
  ine
 DTSTART:20241023T003000Z
 DTEND:20241023T030000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-mQWp3K6BzL3L3d5@events.lu.ma
 CATEGORIES:ai
 DESCRIPTION:Get up-to-date information at: https://luma.com/sqvmepae\n\nAd
@@ -630,7 +630,7 @@ SUMMARY:Mexico Tech Week 2025|El futuro del Trabajo: AI + No Code para emp
  resas|Online
 DTSTART:20241023T010000Z
 DTEND:20241023T040000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-2MtniFYGITzkXhM@events.lu.ma
 CATEGORIES:ai
 DESCRIPTION:Get up-to-date information at: https://luma.com/ff87igg4\n\nAd
@@ -643,7 +643,7 @@ BEGIN:VEVENT
 SUMMARY:Mexico Tech Week 2025|Fuckup Nights x Get on Board|Online
 DTSTART:20241023T010000Z
 DTEND:20241023T060000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-BiHZbeZaE5dFD61@events.lu.ma
 CATEGORIES:ai
 DESCRIPTION:Get up-to-date information at: https://luma.com/funxgetonbrd20
@@ -656,7 +656,7 @@ BEGIN:VEVENT
 SUMMARY:Mexico Tech Week 2025|Mezcal\, Art & Capital|Online
 DTSTART:20241023T010000Z
 DTEND:20241023T050000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-k6Y8c1WZoCHUbM5@events.lu.ma
 CATEGORIES:ai,backend
 DESCRIPTION:Get up-to-date information at: https://luma.com/mezcal-art-cap
@@ -671,7 +671,7 @@ SUMMARY:Mexico Tech Week 2025|Amazon Q vs Github Copilot | IAM Identify Ce
  CDMX
 DTSTART:20241023T010000Z
 DTEND:20241023T030000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-fZY2njWs3f3vsod@events.lu.ma
 DESCRIPTION:Get up-to-date information at: https://luma.com/gzq7z7a4\n\nAd
  dress:\nWizeline\nCiudad de México\, Ciudad de México\nMexico\n\nHosted 
@@ -685,7 +685,7 @@ SUMMARY:Mexico Tech Week 2025|First Check Ventures\, Everywhere Ventures\,
   Nascent VC\, DCG\, Perkins Coie\, and Carta Cocktail Hour|Online
 DTSTART:20241023T013000Z
 DTEND:20241023T043000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-jjv3sLfKdG9xoae@events.lu.ma
 CATEGORIES:ai
 DESCRIPTION:Get up-to-date information at: https://luma.com/m0h3eaav\n\nAd
@@ -699,9 +699,9 @@ SUMMARY:Mexico Tech Week 2025|Cena Mujeres en la Tech | French Tech|Méxic
  o|CDMX
 DTSTART:20241023T020000Z
 DTEND:20241023T050000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-TDc5X6WA1KzZYAV@events.lu.ma
-CATEGORIES:frontend,ai
+CATEGORIES:ai,frontend
 DESCRIPTION:Get up-to-date information at: https://luma.com/8vanaydh\n\nAd
  dress:\nCheck event page for more details.\n\nHosted by Mexico Tech Week &
   Equipo French Tech México
@@ -713,7 +713,7 @@ SUMMARY:Mexico Tech Week 2025|Studio Berlin's Open Mic\, Mexico Tech Week
  Special Edition|México|CDMX
 DTSTART:20241023T020000Z
 DTEND:20241023T040000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-tP1H1hxqFWJXg4n@events.lu.ma
 DESCRIPTION:Get up-to-date information at: https://luma.com/07dz4tvr\n\nAd
  dress:\nStudio Berlin\nCiudad de México\, Ciudad de México\nMexico\n\nHo
@@ -726,7 +726,7 @@ BEGIN:VEVENT
 SUMMARY:Mexico Tech Week 2025|Deel Padel Series en MTW|México|CDMX
 DTSTART:20241023T130000Z
 DTEND:20241023T170000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-ZWJOuFq8ThX21nF@events.lu.ma
 DESCRIPTION:Get up-to-date information at: https://luma.com/y3nz09hm\n\nAd
  dress:\nPadel Company\nCiudad de México\, Ciudad de México\nMexico\n\nHo
@@ -739,7 +739,7 @@ BEGIN:VEVENT
 SUMMARY:Mexico Tech Week 2025|Corrida 7K + Cafecito 🏃☕|México|CDMX
 DTSTART:20241023T130000Z
 DTEND:20241023T150000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-cK2KYPqz62LIdaI@events.lu.ma
 DESCRIPTION:Get up-to-date information at: https://luma.com/cj3cw8do\n\nAd
  dress:\nLuz Park\nCiudad de México\, Ciudad de México\nMexico\n\nHosted 
@@ -753,7 +753,7 @@ SUMMARY:Mexico Tech Week 2025|Sofía + BBVA Spark | Desayuno con un Médic
  o Genetista|México|CDMX
 DTSTART:20241023T143000Z
 DTEND:20241023T173000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-FXJhGrsTR6qqizP@events.lu.ma
 CATEGORIES:data
 DESCRIPTION:Get up-to-date information at: https://luma.com/54prcbbt\n\nAd
@@ -769,7 +769,7 @@ SUMMARY:Mexico Tech Week 2025|Marketing + IA = MarIA (Crash Course + Break
  fast)|México|CDMX
 DTSTART:20241023T150000Z
 DTEND:20241023T200000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-MOM5Aqj0WgqLaBB@events.lu.ma
 DESCRIPTION:Get up-to-date information at: https://luma.com/s4ycmyv3\n\nAd
  dress:\nGoogle Mexico City\nCiudad de México\, Ciudad de México\nMexico\
@@ -784,9 +784,9 @@ SUMMARY:Mexico Tech Week 2025|Building and Selling Enterprise SAAS - Round
  table breakfast|Online
 DTSTART:20241023T153000Z
 DTEND:20241023T173000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-Ta3fLhDUQFGHa7p@events.lu.ma
-CATEGORIES:frontend,ai,web
+CATEGORIES:ai,frontend,web
 DESCRIPTION:Get up-to-date information at: https://luma.com/1jum1jsk\n\nAd
  dress:\nCheck event page for more details.\n\nHosted by Mexico Tech Week &
   3 others
@@ -798,7 +798,7 @@ SUMMARY:Mexico Tech Week 2025|Startups Latam Week México 2024 🇲🇽|On
  line
 DTSTART:20241023T153000Z
 DTEND:20241023T210000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-gFkzq4HI4bdn6N8@events.lu.ma
 CATEGORIES:ai
 DESCRIPTION:Get up-to-date information at: https://luma.com/dv3dxzba\n\nAd
@@ -812,7 +812,7 @@ SUMMARY:Mexico Tech Week 2025|Your Business AI Canvas- Workshop|México|CD
  MX
 DTSTART:20241023T160000Z
 DTEND:20241023T180000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-TNerqUlquuuHVcE@events.lu.ma
 CATEGORIES:ai
 DESCRIPTION:Get up-to-date information at: https://luma.com/aicanvas\n\nAd
@@ -828,7 +828,7 @@ SUMMARY:Mexico Tech Week 2025|The Mexico - Asia business case a VC Perspec
  tive|Online
 DTSTART:20241023T160000Z
 DTEND:20241023T180000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-7tDMY8CXd8ZlIjK@events.lu.ma
 CATEGORIES:ai
 DESCRIPTION:Get up-to-date information at: https://luma.com/tz0doiog\n\nAd
@@ -842,9 +842,9 @@ SUMMARY:Mexico Tech Week 2025|🌞Community Day powered by Milia⚡#Mexico
  TechWeek|Online
 DTSTART:20241023T170000Z
 DTEND:20241023T183000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-gpAIOkVpeUyDNIZ@events.lu.ma
-CATEGORIES:frontend,ai
+CATEGORIES:ai,frontend
 DESCRIPTION:Get up-to-date information at: https://luma.com/b1z4i3en\n\nHo
  sted by Mexico Tech Week & Guillermo Vizcaino
 LOCATION:https://luma.com/event/evt-gpAIOkVpeUyDNIZ
@@ -855,9 +855,9 @@ SUMMARY:Mexico Tech Week 2025|Online Speed Networking by Milia⚡️#Mexic
  oTechWeek|Online
 DTSTART:20241023T180000Z
 DTEND:20241023T183000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-mRO6US6iBsyPg8p@events.lu.ma
-CATEGORIES:frontend,ai
+CATEGORIES:ai,frontend
 DESCRIPTION:Get up-to-date information at: https://luma.com/ry8nt8ii\n\nHo
  sted by Mexico Tech Week & Guillermo Vizcaino
 LOCATION:https://luma.com/event/evt-mRO6US6iBsyPg8p
@@ -868,9 +868,9 @@ SUMMARY:Mexico Tech Week 2025|VC Reverse Pitch Sessions in Xochimilco #Mex
  icoTechWeek|Online
 DTSTART:20241023T180000Z
 DTEND:20241023T210000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-MMuyWWagO3lsN27@events.lu.ma
-CATEGORIES:frontend,ai
+CATEGORIES:ai,frontend
 DESCRIPTION:Get up-to-date information at: https://luma.com/kouwlxru\n\nAd
  dress:\nCheck event page for more details.\n\nHosted by Mexico Tech Week &
   Guillermo Vizcaino
@@ -881,7 +881,7 @@ BEGIN:VEVENT
 SUMMARY:Mexico Tech Week 2025|Mobility & Tech|México|CDMX
 DTSTART:20241023T180000Z
 DTEND:20241023T210000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-iUeISf0GeEkH3LF@events.lu.ma
 DESCRIPTION:Get up-to-date information at: https://luma.com/qp2bl68g\n\nAd
  dress:\nBBVA\nPiso 33\nCiudad de México\, Ciudad de México\nMexico\n\nHo
@@ -895,7 +895,7 @@ SUMMARY:Mexico Tech Week 2025|Padel Tournament - Game ON! by Capital One|M
  éxico|CDMX
 DTSTART:20241023T180000Z
 DTEND:20241023T230000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-jA5f883HacThXeh@events.lu.ma
 CATEGORIES:backend
 DESCRIPTION:Get up-to-date information at: https://luma.com/ogeodttw\n\nAd
@@ -910,7 +910,7 @@ SUMMARY:Mexico Tech Week 2025|La Realidad de las nuevas "Realidades"|Méxi
  co|CDMX
 DTSTART:20241023T190000Z
 DTEND:20241023T210000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-DDLByIm5PWKpi7S@events.lu.ma
 DESCRIPTION:Get up-to-date information at: https://luma.com/yqt9iqmy\n\nAd
  dress:\nWeWork Espacio de Oficinas & Coworking\nCiudad de México\, Ciudad
@@ -924,7 +924,7 @@ SUMMARY:Mexico Tech Week 2025|Founders’ session on F*ck Ups on People Ma
  nagement by Skala|México|CDMX
 DTSTART:20241023T200000Z
 DTEND:20241023T220000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-tD7fZSzGuEcyfNd@events.lu.ma
 DESCRIPTION:Get up-to-date information at: https://luma.com/txu3oczd\n\nAd
  dress:\nMadre Café\nCiudad de México\, Ciudad de México\nMexico\n\nHost
@@ -938,7 +938,7 @@ SUMMARY:Mexico Tech Week 2025|La Neta del VC <> SoftBank LatAm <> BBVA: La
  test Take on LatAm’s Tech Ecosystem 🌎🚀|México|CDMX
 DTSTART:20241023T210000Z
 DTEND:20241024T010000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-mxga99D7BBVVOEP@events.lu.ma
 DESCRIPTION:Get up-to-date information at: https://luma.com/iuj8sn32\n\nAd
  dress:\nBBVA\nCiudad de México\, Ciudad de México\nMexico\n\nHosted by N
@@ -952,7 +952,7 @@ SUMMARY:Mexico Tech Week 2025|Mexico Early Stage 100: learn how to build a
   world class startup in Mexico|México|CDMX
 DTSTART:20241023T210000Z
 DTEND:20241023T230000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-xHidMdsaKnrqN0H@events.lu.ma
 CATEGORIES:frontend
 DESCRIPTION:Get up-to-date information at: https://luma.com/wpu1hhlx\n\nAd
@@ -967,7 +967,7 @@ SUMMARY:Mexico Tech Week 2025|How to remake Chinese unicorns in Latam?|Onl
  ine
 DTSTART:20241023T220000Z
 DTEND:20241024T000000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-uKpFtlDT5jkge9Q@events.lu.ma
 CATEGORIES:ai
 DESCRIPTION:Get up-to-date information at: https://luma.com/y7417r06\n\nAd
@@ -981,9 +981,9 @@ SUMMARY:Mexico Tech Week 2025|Brindis PYME: Sin miedo al Financiamiento Em
  presarial by Finerik\, Harvesting y Kuspit.|Online
 DTSTART:20241023T220000Z
 DTEND:20241024T010000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-twGnQHqSqC4sQ9o@events.lu.ma
-CATEGORIES:python,ai
+CATEGORIES:ai,python
 DESCRIPTION:Get up-to-date information at: https://luma.com/4hwtrywf\n\nAd
  dress:\nCheck event page for more details.\n\nHosted by Mexico Tech Week &
   4 others
@@ -995,7 +995,7 @@ SUMMARY:Mexico Tech Week 2025|LIF Brand Global Ambassadors: connecting inn
  ovation|México|CDMX
 DTSTART:20241023T220000Z
 DTEND:20241024T000000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-mxoAdYzLq8xllMa@events.lu.ma
 DESCRIPTION:Get up-to-date information at: https://luma.com/fuevi059\n\nAd
  dress:\nMexico City\nMexico City\, Mexico City\nMexico\n\nHosted by Mexico
@@ -1008,9 +1008,9 @@ SUMMARY:Mexico Tech Week 2025|BIVA & AWS Insight: Tech\, Liquidity and Fin
  ancing Session|Online
 DTSTART:20241023T223000Z
 DTEND:20241024T003000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-3rZFseRxxeBrkjI@events.lu.ma
-CATEGORIES:web,frontend,ai,cloud
+CATEGORIES:ai,frontend,cloud,web
 DESCRIPTION:Get up-to-date information at: https://luma.com/g4f5jsed\n\nAd
  dress:\nCheck event page for more details.\n\nHosted by Mexico Tech Week &
   3 others
@@ -1021,7 +1021,7 @@ BEGIN:VEVENT
 SUMMARY:Mexico Tech Week 2025|Exit Strategy: Time to Sell?|México|CDMX
 DTSTART:20241023T230000Z
 DTEND:20241024T020000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-byxfdp1147MUXlC@events.lu.ma
 DESCRIPTION:Get up-to-date information at: https://luma.com/ndpo3qw9\n\nAd
  dress:\nGoogle Mexico City\nTerraza\nCiudad de México\, Ciudad de México
@@ -1035,7 +1035,7 @@ BEGIN:VEVENT
 SUMMARY:Mexico Tech Week 2025|Gen AI para Marketing|Online
 DTSTART:20241023T230000Z
 DTEND:20241024T010000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-HlfB2fOpTbnOsVA@events.lu.ma
 CATEGORIES:ai
 DESCRIPTION:Get up-to-date information at: https://luma.com/t522dkq2\n\nAd
@@ -1049,7 +1049,7 @@ SUMMARY:Mexico Tech Week 2025|Emprendimiento Digital: innovación sin lím
  ites|México|CDMX
 DTSTART:20241023T230000Z
 DTEND:20241024T003000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-knW7dpwuRkuJkZN@events.lu.ma
 DESCRIPTION:Get up-to-date information at: https://luma.com/ebc_panel\n\nA
  ddress:\nC. Dinamarca 32\nCiudad de México\, Ciudad de México\nMexico\n\
@@ -1063,7 +1063,7 @@ SUMMARY:Mexico Tech Week 2025|Movilidad + Ventas + Inteligencia Artificial
   ✦|México|CDMX
 DTSTART:20241023T230000Z
 DTEND:20241024T020000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-AndgJkSeABlXYiz@events.lu.ma
 DESCRIPTION:Get up-to-date information at: https://luma.com/92l1gasp\n\nAd
  dress:\nAnatole France 51\nCiudad de México\, Ciudad de México\nMexico\n
@@ -1077,7 +1077,7 @@ SUMMARY:Mexico Tech Week 2025|Evento Presencial: Impacto Real de la IA GPT
   en Ecommerce y Gobiernos|México|CDMX
 DTSTART:20241023T230000Z
 DTEND:20241024T010000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-cmWsJOgH6pBwyxR@events.lu.ma
 DESCRIPTION:Get up-to-date information at: https://luma.com/1buoleos\n\nAd
  dress:\nGoogle Mexico City\nCiudad de México\, Ciudad de México\nMexico\
@@ -1092,9 +1092,9 @@ SUMMARY:Mexico Tech Week 2025|The Digital Dimension: Mexico City Tech Week
   Happy Hour|Online
 DTSTART:20241024T000000Z
 DTEND:20241024T023000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-1ovbPrEGiiONJ5Q@events.lu.ma
-CATEGORIES:python,ai
+CATEGORIES:ai,python
 DESCRIPTION:Get up-to-date information at: https://luma.com/u7n5l27v\n\nAd
  dress:\nCheck event page for more details.\n\nHosted by Mexico Tech Week\,
   Vision 8 AI & SeekInvest
@@ -1106,7 +1106,7 @@ SUMMARY:Mexico Tech Week 2025|Innovation Fintech Speed-Dating x Radar|Méx
  ico|CDMX
 DTSTART:20241024T000000Z
 DTEND:20241024T040000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-s8iWUYXkhAEqurn@events.lu.ma
 DESCRIPTION:Get up-to-date information at: https://luma.com/sves7t65\n\nAd
  dress:\nPolanco\nMexico City\, Mexico City\nMexico\n\nHosted by Mexico Tec
@@ -1118,7 +1118,7 @@ BEGIN:VEVENT
 SUMMARY:Mexico Tech Week 2025|Tips para optimizar y ahorrar en AWS|Online
 DTSTART:20241024T000000Z
 DTEND:20241024T020000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-h3AXZzfPAeV3YRR@events.lu.ma
 CATEGORIES:ai,cloud
 DESCRIPTION:Get up-to-date information at: https://luma.com/dwsp3mxe\n\nAd
@@ -1132,9 +1132,9 @@ SUMMARY:Mexico Tech Week 2025|Mujeres en Tech Happy Hour🍸👩‍💻Pow
  ered by Capital One|México|CDMX
 DTSTART:20241024T000000Z
 DTEND:20241024T030000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-Ph9CtiKTUcWozmP@events.lu.ma
-CATEGORIES:python,frontend,backend
+CATEGORIES:python,backend,frontend
 DESCRIPTION:Get up-to-date information at: https://luma.com/mzxtng7s\n\nAd
  dress:\nCultural Center Casa Lamm\nCiudad de México\, Ciudad de México\n
  Mexico\n\nHosted by Carolina & Montserrat Anguiano Garcia
@@ -1147,7 +1147,7 @@ SUMMARY:Mexico Tech Week 2025|Pizza\, Beer & Startup Talks! 🚀|México|C
  DMX
 DTSTART:20241024T010000Z
 DTEND:20241024T050000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-16lvdbbk9avZeZT@events.lu.ma
 DESCRIPTION:Get up-to-date information at: https://luma.com/StartupBeers\n
  \nAddress:\nLoop Climbing Center\nCiudad de México\, Ciudad de México\nM
@@ -1161,7 +1161,7 @@ SUMMARY:Mexico Tech Week 2025|Cybersecurity Foundations for Tech Startups
  & Scaleups|México|CDMX
 DTSTART:20241024T010000Z
 DTEND:20241024T030000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-YtZIXboNCU5kADX@events.lu.ma
 CATEGORIES:security
 DESCRIPTION:Get up-to-date information at: https://luma.com/9shzrpuy\n\nAd
@@ -1177,7 +1177,7 @@ SUMMARY:Mexico Tech Week 2025|Salud Mental y Respiración c/ Yimis|México
  |CDMX
 DTSTART:20241024T130000Z
 DTEND:20241024T143000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-jKC2cHE0U5Er4xJ@events.lu.ma
 DESCRIPTION:Get up-to-date information at: https://luma.com/hkstakr0\n\nAd
  dress:\nCanadian Totem\nCiudad de México\, Ciudad de México\nMexico\n\nH
@@ -1190,7 +1190,7 @@ BEGIN:VEVENT
 SUMMARY:Mexico Tech Week 2025|Padel Club x Fintual|México|CDMX
 DTSTART:20241024T140000Z
 DTEND:20241024T150000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-JOJMk6mxp78Nti4@events.lu.ma
 CATEGORIES:ai
 DESCRIPTION:Get up-to-date information at: https://luma.com/ai25cw26\n\nAd
@@ -1205,7 +1205,7 @@ SUMMARY:Mexico Tech Week 2025|2° Health Day in Tech by Asociación Health
  tech México|México|CDMX
 DTSTART:20241024T143000Z
 DTEND:20241024T183000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-84M7x7LRZPFSCJi@events.lu.ma
 DESCRIPTION:Get up-to-date information at: https://luma.com/0woyzn7r\n\nAd
  dress:\nAv. Río Mixcoac 108\nEL EDIFICIO NO CUENTA CON ESTACIONAMIENTO\nC
@@ -1220,7 +1220,7 @@ SUMMARY:Mexico Tech Week 2025|Navigating US Stock Ownership (by Coba.ai):
  Strategies for MX Co-founders and Employees|Online
 DTSTART:20241024T143000Z
 DTEND:20241024T160000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-TV344YrhYaUyjaK@events.lu.ma
 CATEGORIES:ai
 DESCRIPTION:Get up-to-date information at: https://luma.com/z8jkh80w\n\nAd
@@ -1235,7 +1235,7 @@ SUMMARY:Mexico Tech Week 2025|Left Lane + Magma Partners + Koltin | Global
  t problems|Online
 DTSTART:20241024T150000Z
 DTEND:20241024T170000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-aLDg3oMJAQ6bweS@events.lu.ma
 CATEGORIES:ai
 DESCRIPTION:Get up-to-date information at: https://luma.com/4r60wkdc\n\nAd
@@ -1248,7 +1248,7 @@ BEGIN:VEVENT
 SUMMARY:Mexico Tech Week 2025|Cabrito Valley @ MTW|México|CDMX
 DTSTART:20241024T150000Z
 DTEND:20241024T190000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-ZsdOPD7WOhhIiXV@events.lu.ma
 CATEGORIES:data,web
 DESCRIPTION:Get up-to-date information at: https://luma.com/b4hjs361\n\nAd
@@ -1263,7 +1263,7 @@ SUMMARY:Mexico Tech Week 2025|Startuplinks + Google | Co-Investment day IA
   🤖|Online
 DTSTART:20241024T150000Z
 DTEND:20241024T180000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-i674p9h469y6yH5@events.lu.ma
 CATEGORIES:ai
 DESCRIPTION:Get up-to-date information at: https://luma.com/mb9x4fwt\n\nAd
@@ -1277,7 +1277,7 @@ SUMMARY:Mexico Tech Week 2025|Fuck Up Nights - DILA Capital and Caravela.
  Br-Latam Nexus|Online
 DTSTART:20241024T150000Z
 DTEND:20241024T180000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-0HxrAIlZyInFuic@events.lu.ma
 CATEGORIES:ai,backend
 DESCRIPTION:Get up-to-date information at: https://luma.com/nw9nna1d\n\nAd
@@ -1291,7 +1291,7 @@ SUMMARY:Mexico Tech Week 2025|Crecimiento B2B con el KYB del futuro: histo
  rias reales|México|CDMX
 DTSTART:20241024T150000Z
 DTEND:20241024T163000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-otDtbTHBBHiNjp7@events.lu.ma
 DESCRIPTION:Get up-to-date information at: https://luma.com/s60sln7s\n\nAd
  dress:\nAmazon México Oficinas\nCiudad de México\, Ciudad de México\nMe
@@ -1306,7 +1306,7 @@ SUMMARY:Mexico Tech Week 2025|"La Revolución Agro en México: Finanzas Di
  gitales para un Campo Sostenible"|Online
 DTSTART:20241024T170000Z
 DTEND:20241024T200000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-nyOZ3ozYF9embjw@events.lu.ma
 CATEGORIES:ai
 DESCRIPTION:Get up-to-date information at: https://luma.com/s1nn9o4d\n\nAd
@@ -1320,9 +1320,9 @@ SUMMARY:Mexico Tech Week 2025|Generative AI: Arquitectura\, Funcionamiento
   y Aplicaciones en la Nube|Online
 DTSTART:20241024T170000Z
 DTEND:20241024T180000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-r02QQbE0hAcpo3X@events.lu.ma
-CATEGORIES:frontend,ai
+CATEGORIES:ai,frontend
 DESCRIPTION:Get up-to-date information at: https://luma.com/nbegq0w4\n\nHo
  sted by Mexico Tech Week\, Craftech & Jesus Liernur
 LOCATION:https://luma.com/event/evt-r02QQbE0hAcpo3X
@@ -1333,7 +1333,7 @@ SUMMARY:Mexico Tech Week 2025|Halcyon Latin America & the Caribbean (LAC)
  Climate Fellowship Showcase|México|CDMX
 DTSTART:20241024T170000Z
 DTEND:20241024T210000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-458wKzrMIKWFORY@events.lu.ma
 CATEGORIES:web
 DESCRIPTION:Get up-to-date information at: https://luma.com/ix35osjs\n\nAd
@@ -1348,7 +1348,7 @@ SUMMARY:Mexico Tech Week 2025|"Corporativos\, Academia e Inversión para M
  exico como el Hub Tecnológico de Latinoamérica"|México|
 DTSTART:20241024T180000Z
 DTEND:20241024T200000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-NwqWiEjuqEjXq98@events.lu.ma
 DESCRIPTION:Get up-to-date information at: https://luma.com/qbmnn3zn\n\nAd
  dress:\n\n\nHosted by Mexico Tech Week & Maria Beltran
@@ -1359,9 +1359,9 @@ SUMMARY:Mexico Tech Week 2025|Supply Chains for the Future: AI & Tech Inno
  vations.|Online
 DTSTART:20241024T200000Z
 DTEND:20241024T220000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-EkYGZSSpNxMdbJ6@events.lu.ma
-CATEGORIES:frontend,ai
+CATEGORIES:ai,frontend
 DESCRIPTION:Get up-to-date information at: https://luma.com/f56p91xg\n\nAd
  dress:\nCheck event page for more details.\n\nHosted by Mexico Tech Week &
   Guindic
@@ -1373,7 +1373,7 @@ SUMMARY:Mexico Tech Week 2025|THE UNICORN OF E-COMMERCE 🦄 LUNCH & OPEN
  HOUSE 🌮|Online
 DTSTART:20241024T200000Z
 DTEND:20241024T230000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-L5Jp5uEyRO8tnsI@events.lu.ma
 CATEGORIES:ai
 DESCRIPTION:Get up-to-date information at: https://luma.com/1qx1q99i\n\nAd
@@ -1387,7 +1387,7 @@ SUMMARY:Mexico Tech Week 2025|Venture Bites: "Conecta con VCs\, CVCs y Sta
  rtups" Sponsored By Deloitte|Online
 DTSTART:20241024T210000Z
 DTEND:20241024T230000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-rrG9q3rFNk0jXoM@events.lu.ma
 CATEGORIES:ai
 DESCRIPTION:Get up-to-date information at: https://luma.com/3clzqm0f\n\nAd
@@ -1401,7 +1401,7 @@ SUMMARY:Mexico Tech Week 2025|Unlock Success Through Empathy: A Workshop f
  or Co-Founders|Online
 DTSTART:20241024T210000Z
 DTEND:20241024T223000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-zrOY3rsMp4P1FbY@events.lu.ma
 CATEGORIES:ai
 DESCRIPTION:Get up-to-date information at: https://luma.com/80lsid6s\n\nAd
@@ -1415,7 +1415,7 @@ SUMMARY:Mexico Tech Week 2025|Pivote (from the concept of pivoting)|Méxic
  o|CDMX
 DTSTART:20241024T220000Z
 DTEND:20241025T050000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-tcvuSnMExwf692w@events.lu.ma
 DESCRIPTION:Get up-to-date information at: https://luma.com/ilnes23n\n\nAd
  dress:\nNúcleo\nCiudad de México\, Ciudad de México\nMexico\n\nHosted b
@@ -1429,7 +1429,7 @@ SUMMARY:Mexico Tech Week 2025|Leveraging technology to drive social impact
   through innovative corporate sustainability programs.|Online
 DTSTART:20241024T220000Z
 DTEND:20241024T230000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-1i5I88Lhys63Ese@events.lu.ma
 CATEGORIES:ai
 DESCRIPTION:Get up-to-date information at: https://luma.com/mexicotechweek
@@ -1443,9 +1443,9 @@ SUMMARY:Mexico Tech Week 2025|Mezcal Deep Connections by pygma\, Wekall\,
  Google\, Amplo & Davalos Michel|Online
 DTSTART:20241024T220000Z
 DTEND:20241025T000000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-WBtkUDuPKrs18LY@events.lu.ma
-CATEGORIES:python,ai
+CATEGORIES:ai,python
 DESCRIPTION:Get up-to-date information at: https://luma.com/5iicwym0\n\nAd
  dress:\nCheck event page for more details.\n\nHosted by Mexico Tech Week &
   Andrés Cano
@@ -1457,9 +1457,9 @@ SUMMARY:Mexico Tech Week 2025|The Future of AI is Realtime | Agora Panel S
  ession + Happy Hour!|México|CDMX
 DTSTART:20241024T223000Z
 DTEND:20241025T003000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-J39epwGQiokHIGQ@events.lu.ma
-CATEGORIES:python,ai
+CATEGORIES:ai,python
 DESCRIPTION:Get up-to-date information at: https://luma.com/hcbw1ua0\n\nAd
  dress:\nStudio Berlin\nCiudad de México\, Ciudad de México\nMexico\n\nHo
  sted by Mexico Tech Week & Kan Maheshwary
@@ -1471,7 +1471,7 @@ BEGIN:VEVENT
 SUMMARY:Mexico Tech Week 2025|AI Open|México|CDMX
 DTSTART:20241024T230000Z
 DTEND:20241025T020000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-o78iS5VINMVzB2y@events.lu.ma
 CATEGORIES:ai
 DESCRIPTION:Get up-to-date information at: https://luma.com/5tdu732u\n\nAd
@@ -1487,7 +1487,7 @@ SUMMARY:Mexico Tech Week 2025|Crossing the Chasm: Unlocking Proptech Oppor
  tunities in Mexico|México|CDMX
 DTSTART:20241024T230000Z
 DTEND:20241025T003000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-VBVoSXixEiZtDEk@events.lu.ma
 DESCRIPTION:Get up-to-date information at: https://luma.com/hrox05gq\n\nAd
  dress:\nPÚBLICO Reforma\nPiso 2\, registro en el lobby con un documento d
@@ -1503,7 +1503,7 @@ SUMMARY:Mexico Tech Week 2025|Startup to Exit in Mexico: Connect\, Learn &
  ico|CDMX
 DTSTART:20241024T230000Z
 DTEND:20241025T040000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-Cmf3Us6btjJnGXr@events.lu.ma
 DESCRIPTION:Get up-to-date information at: https://luma.com/dtgm3mb9\n\nAd
  dress:\nHaab Project Condesa\nCiudad de México\, Ciudad de México\nMexic
@@ -1517,7 +1517,7 @@ SUMMARY:Mexico Tech Week 2025|Happy Hour: Conectando con el Ecosistema de
  Impacto|México|CDMX
 DTSTART:20241024T233000Z
 DTEND:20241025T023000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-VNfmW4j1qbziUwb@events.lu.ma
 CATEGORIES:python
 DESCRIPTION:Get up-to-date information at: https://luma.com/32oa0da8\n\nAd
@@ -1533,7 +1533,7 @@ SUMMARY:Mexico Tech Week 2025|Media for Equity: Not a Typical Fund|México
  |CDMX
 DTSTART:20241025T000000Z
 DTEND:20241025T020000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-8AjGFc1KR3Ed0Qq@events.lu.ma
 CATEGORIES:frontend
 DESCRIPTION:Get up-to-date information at: https://luma.com/18nx4d2n\n\nAd
@@ -1547,7 +1547,7 @@ BEGIN:VEVENT
 SUMMARY:Mexico Tech Week 2025|SATX Tech meets CDMX|México|CDMX
 DTSTART:20241025T000000Z
 DTEND:20241025T020000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-KwF2KYAHL8Ux029@events.lu.ma
 CATEGORIES:ai
 DESCRIPTION:Get up-to-date information at: https://luma.com/satxmeetscdmx\
@@ -1561,9 +1561,9 @@ SUMMARY:Mexico Tech Week 2025|IOS Offices + Cabrito Valley: Building Commu
  nities|México|CDMX
 DTSTART:20241025T000000Z
 DTEND:20241025T043000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-DcAep2GHWDuh9WX@events.lu.ma
-CATEGORIES:frontend,mobile
+CATEGORIES:mobile,frontend
 DESCRIPTION:Get up-to-date information at: https://luma.com/w1pnd7pq\n\nAd
  dress:\nTorre Virreyes\nCiudad de México\, Ciudad de México\nMexico\n\nH
  osted by AngelHub Ventures & 9 others
@@ -1577,7 +1577,7 @@ SUMMARY:Mexico Tech Week 2025|SPARK Founders Live @ Mexico Tech Week|Méxi
  co|CDMX
 DTSTART:20241025T000000Z
 DTEND:20241025T040000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-2clxLrM6rJ15VdE@events.lu.ma
 CATEGORIES:data
 DESCRIPTION:Get up-to-date information at: https://luma.com/tunrasqg\n\nAd
@@ -1592,7 +1592,7 @@ SUMMARY:Mexico Tech Week 2025|Cloud Innovators Challenge by Product-LatAm
  sponsored by Capital One|Online
 DTSTART:20241025T000000Z
 DTEND:20241025T040000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-yxki3JCH8W73zAp@events.lu.ma
 CATEGORIES:ai,backend,cloud
 DESCRIPTION:Get up-to-date information at: https://luma.com/qbcuzmov\n\nAd
@@ -1605,7 +1605,7 @@ BEGIN:VEVENT
 SUMMARY:Mexico Tech Week 2025|Cocktail ecosistema VC LATAM 🌎|Online
 DTSTART:20241025T000000Z
 DTEND:20241025T030000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-eToS1mfUv62udio@events.lu.ma
 CATEGORIES:ai
 DESCRIPTION:Get up-to-date information at: https://luma.com/ze9jc34q\n\nAd
@@ -1619,7 +1619,7 @@ SUMMARY:Mexico Tech Week 2025|deep_strategies: Elevating Marketing with AI
  |Online
 DTSTART:20241025T003000Z
 DTEND:20241025T030000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-riG23O5TQ8rjn1g@events.lu.ma
 CATEGORIES:ai
 DESCRIPTION:Get up-to-date information at: https://luma.com/wcj9wvt3\n\nAd
@@ -1632,7 +1632,7 @@ BEGIN:VEVENT
 SUMMARY:Mexico Tech Week 2025|Fintech\, AI\, and Crypto Insights|Online
 DTSTART:20241025T003000Z
 DTEND:20241025T033000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-FrLppkALIaIqIBb@events.lu.ma
 CATEGORIES:ai
 DESCRIPTION:Get up-to-date information at: https://luma.com/dcgmxtw\n\nAdd
@@ -1646,7 +1646,7 @@ SUMMARY:Mexico Tech Week 2025|deep_strategies: Enhancing Client Success wi
  th LLMs|Online
 DTSTART:20241025T003000Z
 DTEND:20241025T030000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-YIH7bNHYRBCLwUC@events.lu.ma
 CATEGORIES:ai
 DESCRIPTION:Get up-to-date information at: https://luma.com/a55ogakj\n\nAd
@@ -1660,7 +1660,7 @@ SUMMARY:Mexico Tech Week 2025|Tech 4 Mother Nature: Storytelling by Decidi
  das & Savia Ventures|México|CDMX
 DTSTART:20241025T010000Z
 DTEND:20241025T033000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-wpnpFWHytcBbs9p@events.lu.ma
 DESCRIPTION:Get up-to-date information at: https://luma.com/y3v84mev\n\nAd
  dress:\nSoho House Mexico City\nCiudad de México\, Ciudad de México\nMex
@@ -1674,9 +1674,9 @@ SUMMARY:Mexico Tech Week 2025|Happy Hour: Bridge Latam\, Daedalus Ventures
  \, Norte\, 0BS\, Endeavor\, 30N\, Beacon Founders|Online
 DTSTART:20241025T010000Z
 DTEND:20241025T040000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-9SGfx8uoaLAdFZ7@events.lu.ma
-CATEGORIES:python,ai
+CATEGORIES:ai,python
 DESCRIPTION:Get up-to-date information at: https://luma.com/51i1tv51\n\nAd
  dress:\nCheck event page for more details.\n\nHosted by Mexico Tech Week &
   11 others
@@ -1687,7 +1687,7 @@ BEGIN:VEVENT
 SUMMARY:Mexico Tech Week 2025|Speakeasy con Fondos de Inversión|Online
 DTSTART:20241025T010000Z
 DTEND:20241025T053000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-Ute5PGOLuX8CiyN@events.lu.ma
 CATEGORIES:ai
 DESCRIPTION:Get up-to-date information at: https://luma.com/s6e60uto\n\nAd
@@ -1701,7 +1701,7 @@ SUMMARY:Mexico Tech Week 2025|CFOs Connect Cocktail by Cobre & This Week i
  n Fintech|Online
 DTSTART:20241025T010000Z
 DTEND:20241025T043000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-HIBLkwm1kq5AGyb@events.lu.ma
 CATEGORIES:ai
 DESCRIPTION:Get up-to-date information at: https://luma.com/nfnqv2ni\n\nAd
@@ -1714,7 +1714,7 @@ BEGIN:VEVENT
 SUMMARY:Mexico Tech Week 2025|Startup Cocktail Lab by MAUNA|México|CDMX
 DTSTART:20241025T010000Z
 DTEND:20241025T033000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-CfUIVqCiaVIFYyf@events.lu.ma
 CATEGORIES:ai
 DESCRIPTION:Get up-to-date information at: https://luma.com/unz9c5td\n\nAd
@@ -1728,9 +1728,9 @@ BEGIN:VEVENT
 SUMMARY:AI/IA CDMX|AI For Hustlers|México|CDMX
 DTSTART:20241025T010000Z
 DTEND:20241025T023000Z
-DTSTAMP:20251231T231702Z
+DTSTAMP:20260101T010718Z
 UID:evt-PxnliNIjA3dNSh8@events.lu.ma
-CATEGORIES:frontend,ai
+CATEGORIES:ai,frontend
 DESCRIPTION:Get up-to-date information at: https://luma.com/lxfgbzju\n\nAd
  dress:\n#Hashtag Gallery Ltd\nCiudad de México\, Ciudad de México\nMexic
  o\n\nHosted by Benjamin Ullrich & Gilberto Aguila Alamillo
@@ -1743,7 +1743,7 @@ SUMMARY:Mexico Tech Week 2025|AI Starter Pack - Breakfast + Crash Course |
   Fintual & Google|México|CDMX
 DTSTART:20241025T150000Z
 DTEND:20241025T200000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-crG4cMS5U0G8JLP@events.lu.ma
 CATEGORIES:ai
 DESCRIPTION:Get up-to-date information at: https://luma.com/73a956ii\n\nAd
@@ -1759,7 +1759,7 @@ SUMMARY:Mexico Tech Week 2025|LeadGen 2.0: Deep Dive con Meta + NeoPerform
  ance|México|CDMX
 DTSTART:20241025T150000Z
 DTEND:20241025T180000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-tg3sTbDkmTAE7Li@events.lu.ma
 DESCRIPTION:Get up-to-date information at: https://luma.com/t3qahk1s\n\nAd
  dress:\nTorre Virreyes\n→ Meta MX Offices 🔵\nCiudad de México\, Ciud
@@ -1775,7 +1775,7 @@ SUMMARY:Mexico Tech Week 2025|Coffee Talks: Art 🎨 & Tech 👩🏽‍
  💻|México|CDMX
 DTSTART:20241025T160000Z
 DTEND:20241025T180000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-ADYrDGBbsq0qVVb@events.lu.ma
 DESCRIPTION:Get up-to-date information at: https://luma.com/4te2l7c2\n\nAd
  dress:\nLS / Galería | Galería de Arte Moderno y Contemporáneo\nCiudad 
@@ -1791,7 +1791,7 @@ SUMMARY:Mexico Tech Week 2025|Mexico Venture Capital Report: An Overview f
  or 2024|Online
 DTSTART:20241025T160000Z
 DTEND:20241025T170000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-PrP4i8wg2oKljAl@events.lu.ma
 CATEGORIES:backend
 DESCRIPTION:Get up-to-date information at: https://luma.com/8h9xrdh8\n\nHo
@@ -1804,7 +1804,7 @@ SUMMARY:Mexico Tech Week 2025|Conoce todo sobre Apple Intelligence y cómo
   utilizar AI/ML en tus apps|México|CDMX
 DTSTART:20241025T170000Z
 DTEND:20241025T190000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-xUxHViPs2sXaOxy@events.lu.ma
 CATEGORIES:ai
 DESCRIPTION:Get up-to-date information at: https://luma.com/h9qyyyjt\n\nAd
@@ -1822,7 +1822,7 @@ SUMMARY:Mexico Tech Week 2025|Encuentro de Social Media: estrategia\, cont
  enido y Ads by Converzzo|México|CDMX
 DTSTART:20241025T170000Z
 DTEND:20241025T193000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-v6oPtwQ0RcMDlq2@events.lu.ma
 DESCRIPTION:Get up-to-date information at: https://luma.com/converzzoenmex
  ico\n\nAddress:\nCto. Interior Melchor Ocampo 469\nCiudad de México\, Ciu
@@ -1836,7 +1836,7 @@ SUMMARY:Mexico Tech Week 2025|TechLab: Introducción a Ciencia de Datos|On
  line
 DTSTART:20241025T203000Z
 DTEND:20241025T213000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-wBOQH6RufOXQ7Hu@events.lu.ma
 CATEGORIES:ai
 DESCRIPTION:Get up-to-date information at: https://luma.com/bvb0y7s9\n\nAd
@@ -1850,7 +1850,7 @@ SUMMARY:Mexico Tech Week 2025|TechLab: Workshop Manipulación de datos de
  Python|México|CDMX
 DTSTART:20241025T213000Z
 DTEND:20241026T023000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-ulcdcziwHWed2v9@events.lu.ma
 CATEGORIES:python
 DESCRIPTION:Get up-to-date information at: https://luma.com/nzb89n7y\n\nAd
@@ -1865,7 +1865,7 @@ SUMMARY:Mexico Tech Week 2025|TechLab: Workshop Análisis de Datos|México
  |CDMX
 DTSTART:20241025T213000Z
 DTEND:20241026T023000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-oGHlK2yPvFubC1t@events.lu.ma
 DESCRIPTION:Get up-to-date information at: https://luma.com/8dtqdfok\n\nAd
  dress:\n Florencia 31-Piso 9\, Juárez\, Cuauhtémoc\, 06600 Ciudad de Mé
@@ -1879,7 +1879,7 @@ SUMMARY:Mexico Tech Week 2025|AWS Startups + SoftBank LatAm | #MTW closin
  g celebration|Online
 DTSTART:20241025T220000Z
 DTEND:20241026T010000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-Cg7rQ7hPmuok1Hy@events.lu.ma
 CATEGORIES:ai,cloud
 DESCRIPTION:Get up-to-date information at: https://luma.com/cem5g4xv\n\nAd
@@ -1893,7 +1893,7 @@ SUMMARY:Mexico Tech Week 2025|The future of Automotive Aftermarket Industr
  y|México|CDMX
 DTSTART:20241025T223000Z
 DTEND:20241026T003000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-dk6Pgz4vgIbJXxX@events.lu.ma
 DESCRIPTION:Get up-to-date information at: https://luma.com/5rh9cgs1\n\nAd
  dress:\nPÚBLICO Reforma\nCiudad de México\, Ciudad de México\nMexico\n\
@@ -1906,7 +1906,7 @@ BEGIN:VEVENT
 SUMMARY:Mexico Tech Week 2025|“United for women in engineering”|Online
 DTSTART:20241025T230000Z
 DTEND:20241026T020000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-9PAeUCcZYf9MVyt@events.lu.ma
 CATEGORIES:ai
 DESCRIPTION:Get up-to-date information at: https://luma.com/cg9b7hm3\n\nAd
@@ -1920,9 +1920,9 @@ SUMMARY:Mexico Tech Week 2025|Pinches Hackers: Ciberdefensa\, Hacking y Fr
  aude.|Online
 DTSTART:20241025T230000Z
 DTEND:20241026T030000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-vGmkCJRgqhzdZoH@events.lu.ma
-CATEGORIES:security,ai
+CATEGORIES:ai,security
 DESCRIPTION:Get up-to-date information at: https://luma.com/7ub5rbxg\n\nAd
  dress:\nCheck event page for more details.\n\nHosted by Mexico Tech Week\,
   Adriel Araujo & Ana Paola
@@ -1934,7 +1934,7 @@ SUMMARY:Mexico Tech Week 2025|Masterclass para cerrar clientes con Whatsap
  p|México|CDMX
 DTSTART:20241026T000000Z
 DTEND:20241026T040000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-CWdzIsGnejJIswC@events.lu.ma
 DESCRIPTION:Get up-to-date information at: https://luma.com/hilosmxtw\n\nA
  ddress:\nAv. P.º de la Reforma 180-piso 29\nOficina de Stripe México: Re
@@ -1952,7 +1952,7 @@ SUMMARY:Mexico Tech Week 2025|¿Cómo evitar el burn out cuando estás emp
  rendiendo?|Online
 DTSTART:20241026T000000Z
 DTEND:20241026T010000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-BTpwlgZ1ruDaU2E@events.lu.ma
 CATEGORIES:ai
 DESCRIPTION:Get up-to-date information at: https://luma.com/burnoutmextech
@@ -1966,7 +1966,7 @@ SUMMARY:Mexico Tech Week 2025|TruBit + Sati | Crypto Night: Ideas\, Networ
  king y Cervezas 🔥💡|Online
 DTSTART:20241026T000000Z
 DTEND:20241026T040000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-E8L8koB1jOSykei@events.lu.ma
 CATEGORIES:ai
 DESCRIPTION:Get up-to-date information at: https://luma.com/dwkhys7z\n\nAd
@@ -1980,7 +1980,7 @@ SUMMARY:Mexico Tech Week 2025|Bridging Continents: Leveraging India and Me
  xico in Global Tech Strategies|México|CDMX
 DTSTART:20241026T000000Z
 DTEND:20241026T010000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-Wurvp4vC4yWtbRD@events.lu.ma
 DESCRIPTION:Get up-to-date information at: https://luma.com/zulljvlj\n\nAd
  dress:\nAv. Thiers 251\nSan Miguel\, Ciudad de México\nMexico\n\nHosted b
@@ -1993,7 +1993,7 @@ BEGIN:VEVENT
 SUMMARY:Mexico Tech Week 2025|La chela de los founders By Traund|Online
 DTSTART:20241026T010000Z
 DTEND:20241026T053000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-hueXvEdtelH59dT@events.lu.ma
 CATEGORIES:ai
 DESCRIPTION:Get up-to-date information at: https://luma.com/cheladelosfoun
@@ -2006,7 +2006,7 @@ BEGIN:VEVENT
 SUMMARY:Mexico Tech Week 2025|Despecho night!|México|Mexico
 DTSTART:20241026T020000Z
 DTEND:20241026T090000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-vXLx8F4wVTi6zYN@events.lu.ma
 DESCRIPTION:Get up-to-date information at: https://luma.com/pwl9jnw8\n\nAd
  dress:\nDespecho Satélite\nSatélite\, Estado de México\nMexico\n\nHoste
@@ -2021,7 +2021,7 @@ SUMMARY:Mexico Tech Week 2025|After Party Tech Week - #MexicoTechWeek|Onli
  ne
 DTSTART:20241026T020000Z
 DTEND:20241026T050000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-l02zmsCIOlNOFBT@events.lu.ma
 CATEGORIES:ai
 DESCRIPTION:Get up-to-date information at: https://luma.com/dyzcta2d\n\nAd
@@ -2035,7 +2035,7 @@ SUMMARY:Mexico Tech Week 2025|Disconnect to Reconnect: A hike by Aire Libr
  e|Online
 DTSTART:20241026T130000Z
 DTEND:20241026T183000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-IuaFxa5Xpck1kpy@events.lu.ma
 CATEGORIES:ai
 DESCRIPTION:Get up-to-date information at: https://luma.com/hikeAL_MXTW\n\
@@ -2048,7 +2048,7 @@ BEGIN:VEVENT
 SUMMARY:Mexico Tech Week 2025|Disconnect to connect con Tally|México|
 DTSTART:20241026T140000Z
 DTEND:20241026T183000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-M4T21G0qvTMIfNR@events.lu.ma
 DESCRIPTION:Get up-to-date information at: https://luma.com/lq8qr9ji\n\nAd
  dress:\n\n\nHosted by Mexico Tech Week & Carlos Dávila
@@ -2059,7 +2059,7 @@ SUMMARY:Mexico Tech Week 2025|Hike & Picnic New Ventures X Parque Natural
  la Cañada|Online
 DTSTART:20241026T143000Z
 DTEND:20241026T180000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-0HjtVv4IBGxBV4m@events.lu.ma
 CATEGORIES:ai
 DESCRIPTION:Get up-to-date information at: https://luma.com/orka2bej\n\nAd
@@ -2073,7 +2073,7 @@ SUMMARY:Mexico Tech Week 2025|FIGHT CLUB CDMX presents... "Byte & Bites -
  Tech Week Forest Adventure"|México|CDMX
 DTSTART:20241026T160000Z
 DTEND:20241026T210000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-2a0qvCsWORmBE3H@events.lu.ma
 CATEGORIES:ai,backend
 DESCRIPTION:Get up-to-date information at: https://luma.com/tech-week-mexi
@@ -2086,7 +2086,7 @@ BEGIN:VEVENT
 SUMMARY:Mexico Tech Week 2025|Casa de Satoshi Open House|Online
 DTSTART:20241026T160000Z
 DTEND:20241026T190000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-rvyYIDEtXD7uTJC@events.lu.ma
 CATEGORIES:ai
 DESCRIPTION:Get up-to-date information at: https://luma.com/rcofhawk\n\nAd
@@ -2100,7 +2100,7 @@ SUMMARY:Mexico Tech Week 2025|Wellness + Tech | Pilates Class & Brunch|Mé
  xico|CDMX
 DTSTART:20241026T163000Z
 DTEND:20241026T190000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-AVQdCJJAnJNCwDF@events.lu.ma
 DESCRIPTION:Get up-to-date information at: https://luma.com/0oyqw53a\n\nAd
  dress:\nNápoles 47\nCiudad de México\, Ciudad de México\nMexico\n\nHost
@@ -2113,7 +2113,7 @@ SUMMARY:Mexico Tech Week 2025|Más allá del Go-to-Market: Escalamiento Ac
  elerado y Sostenible|México|CDMX
 DTSTART:20241026T170000Z
 DTEND:20241026T190000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-qBY2DAzFj2Xponp@events.lu.ma
 DESCRIPTION:Get up-to-date information at: https://luma.com/lzcktkgq\n\nAd
  dress:\nSheraton Mexico City Maria Isabel Hotel\nCiudad de México\, Ciuda
@@ -2127,7 +2127,7 @@ SUMMARY:Mexico Tech Week 2025|Gran Torneo Clara Startups - Age Of Empires
  2|Online
 DTSTART:20241026T170000Z
 DTEND:20241027T003000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-PLKHLoHpjUkOkde@events.lu.ma
 CATEGORIES:ai
 DESCRIPTION:Get up-to-date information at: https://luma.com/hdy781ld\n\nAd
@@ -2141,7 +2141,7 @@ SUMMARY:Mexico Tech Week 2025|Brunch for Stanford Alumni during Mexico Tec
  h Week|Online
 DTSTART:20241026T170000Z
 DTEND:20241026T190000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-NTeFfs5thJBTFZP@events.lu.ma
 CATEGORIES:ai
 DESCRIPTION:Get up-to-date information at: https://luma.com/eq09o19z\n\nAd
@@ -2155,9 +2155,9 @@ SUMMARY:Mexico Tech Week 2025|Latinos in Mexico Closing Rooftop Party #Mex
  icoTechWeek|México|CDMX
 DTSTART:20241026T210000Z
 DTEND:20241027T010000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-GAHfAaFzAIcTbOp@events.lu.ma
-CATEGORIES:frontend,ai
+CATEGORIES:ai,frontend
 DESCRIPTION:Get up-to-date information at: https://luma.com/or2e93ua\n\nAd
  dress:\nFiesta Inn Insurgentes Viaducto\nCiudad de México\, Ciudad de Mé
  xico\nMexico\n\nHosted by Mexico Tech Week\, Guillermo Vizcaino & Gerardo 
@@ -2170,7 +2170,7 @@ BEGIN:VEVENT
 SUMMARY:Mexico Tech Week 2025|Empremafia México 🇲🇽|Online
 DTSTART:20241027T030000Z
 DTEND:20241027T054500Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-KOjPL0PaxvJOAJT@events.lu.ma
 CATEGORIES:ai
 DESCRIPTION:Get up-to-date information at: https://luma.com/r32vvwd0\n\nAd
@@ -2184,7 +2184,7 @@ SUMMARY:Mexico Tech Week 2025|Grow & Scale in the Mexican Market :  Soft l
  anding & Open investment calls|Online
 DTSTART:20241106T233000Z
 DTEND:20241107T030000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-BPBcQFiPN25p5He@events.lu.ma
 CATEGORIES:ai
 DESCRIPTION:Get up-to-date information at: https://luma.com/grow-and-scale
@@ -2198,9 +2198,9 @@ SUMMARY:AI/IA CDMX|Building the Right Product: Lessons from an AI Startup
  Founder|Online
 DTSTART:20241113T010000Z
 DTEND:20241113T030000Z
-DTSTAMP:20251231T231702Z
+DTSTAMP:20260101T010718Z
 UID:calev-CaJS1Db7LF0EUEn@events.lu.ma
-CATEGORIES:frontend,ai
+CATEGORIES:ai,frontend
 DESCRIPTION:Find more information on https://luma.com/ai-cdmx
 LOCATION:https://www.meetup.com/ai-cdmx/events/303644420/
 ORGANIZER;CN="Ben Ullrich":MAILTO:calendar-invite@lu.ma
@@ -2209,7 +2209,7 @@ BEGIN:VEVENT
 SUMMARY:PyTalavera|Charlas de Python y partida de Rosca|México|Puebla
 DTSTART:20250110T003000Z
 DTEND:20250110T040000Z
-DTSTAMP:20251231T231702Z
+DTSTAMP:20260101T010718Z
 UID:evt-T7AnzQaWXftD1yk@events.lu.ma
 CATEGORIES:python
 DESCRIPTION:Get up-to-date information at: https://luma.com/t2ns9s7l\n\nAd
@@ -2224,7 +2224,7 @@ BEGIN:VEVENT
 SUMMARY:PyTalavera|Python Charlas en Puebla + Networking|México|Puebla
 DTSTART:20250207T003000Z
 DTEND:20250207T040000Z
-DTSTAMP:20251231T231702Z
+DTSTAMP:20260101T010718Z
 UID:evt-NGxni2aHPrAAsmC@events.lu.ma
 CATEGORIES:python
 DESCRIPTION:Get up-to-date information at: https://luma.com/jrsatymc\n\nAd
@@ -2239,7 +2239,7 @@ BEGIN:VEVENT
 SUMMARY:PyTalavera|Python Charlas en Puebla + Networking|México|Puebla
 DTSTART:20250307T003000Z
 DTEND:20250307T040000Z
-DTSTAMP:20251231T231702Z
+DTSTAMP:20260101T010718Z
 UID:evt-Fcc1KouIrxCFY4e@events.lu.ma
 CATEGORIES:python
 DESCRIPTION:Get up-to-date information at: https://luma.com/hy7epq9i\n\nAd
@@ -2254,7 +2254,7 @@ BEGIN:VEVENT
 SUMMARY:PyTalavera|Python Charlas en Puebla + Networking|México|Puebla
 DTSTART:20250404T003000Z
 DTEND:20250404T040000Z
-DTSTAMP:20251231T231702Z
+DTSTAMP:20260101T010718Z
 UID:evt-IGqWX0hVyY9reJk@events.lu.ma
 CATEGORIES:python
 DESCRIPTION:Get up-to-date information at: https://luma.com/nkujln8w\n\nAd
@@ -2269,9 +2269,9 @@ BEGIN:VEVENT
 SUMMARY:PyTalavera|Python Charlas en Puebla + Networking|Online
 DTSTART:20250509T003000Z
 DTEND:20250509T040000Z
-DTSTAMP:20251231T231702Z
+DTSTAMP:20260101T010718Z
 UID:evt-8Ah6biGds3SNehq@events.lu.ma
-CATEGORIES:python,ai
+CATEGORIES:ai,python
 DESCRIPTION:Get up-to-date information at: https://luma.com/x9gk52xh\n\nAd
  dress:\nCheck event page for more details.\n\nHosted by Gabriel Gómez Té
  llez
@@ -2282,7 +2282,7 @@ BEGIN:VEVENT
 SUMMARY:PyTalavera|PyTalavera Fest: 1er Aniversario|México|Mexico
 DTSTART:20250627T010000Z
 DTEND:20250627T050000Z
-DTSTAMP:20251231T231702Z
+DTSTAMP:20260101T010718Z
 UID:evt-EAPveOlqef2B3ce@events.lu.ma
 CATEGORIES:python
 DESCRIPTION:Get up-to-date information at: https://luma.com/kfjqxz64\n\nAd
@@ -2296,7 +2296,7 @@ BEGIN:VEVENT
 SUMMARY:PyTalavera|Python Charlas en Puebla + Networking|México|Mexico
 DTSTART:20250711T010000Z
 DTEND:20250711T043000Z
-DTSTAMP:20251231T231702Z
+DTSTAMP:20260101T010718Z
 UID:evt-KlAUbQXSo9M7lUD@events.lu.ma
 CATEGORIES:python
 DESCRIPTION:Get up-to-date information at: https://luma.com/uzfazudt\n\nAd
@@ -2312,7 +2312,7 @@ SUMMARY:PyTalavera|Aprende Serverless con Python (Taller + Networking Grat
  is)|México|Puebla
 DTSTART:20250808T003000Z
 DTEND:20250808T040000Z
-DTSTAMP:20251231T231702Z
+DTSTAMP:20260101T010718Z
 UID:evt-qImiCjlCYjkRyol@events.lu.ma
 CATEGORIES:python,cloud
 DESCRIPTION:Get up-to-date information at: https://luma.com/htiova91\n\nAd
@@ -2327,7 +2327,7 @@ BEGIN:VEVENT
 SUMMARY:AI/IA CDMX|Beyond the Plateau: Rethinking AI in 2025|Online
 DTSTART:20250820T010000Z
 DTEND:20250820T030000Z
-DTSTAMP:20251231T231702Z
+DTSTAMP:20260101T010718Z
 UID:calev-ydMCwSN9Nwr6NqV@events.lu.ma
 CATEGORIES:ai
 DESCRIPTION:Find more information on https://luma.com/ai-cdmx
@@ -2338,7 +2338,7 @@ BEGIN:VEVENT
 SUMMARY:PyTalavera|Python Charlas en Puebla + Networking|México|Mexico
 DTSTART:20250905T010000Z
 DTEND:20250905T040000Z
-DTSTAMP:20251231T231702Z
+DTSTAMP:20260101T010718Z
 UID:evt-zitApTADcXUOOrN@events.lu.ma
 CATEGORIES:python
 DESCRIPTION:Get up-to-date information at: https://luma.com/0oejo0zg\n\nAd
@@ -2353,7 +2353,7 @@ BEGIN:VEVENT
 SUMMARY:Claude Users Group|Build with Claude Code|Online
 DTSTART:20250912T010000Z
 DTEND:20250912T023000Z
-DTSTAMP:20251231T231702Z
+DTSTAMP:20260101T010718Z
 UID:evt-T9Ma1BnBItT1Yb2@events.lu.ma
 CATEGORIES:frontend
 DESCRIPTION:Get up-to-date information at: https://luma.com/z4d0punf\n\nHo
@@ -2366,7 +2366,7 @@ SUMMARY:Claude Users Group|AI After Brunch - Tech & Chill Night|México|Ja
  lisco
 DTSTART:20250919T020000Z
 DTEND:20250919T050000Z
-DTSTAMP:20251231T231702Z
+DTSTAMP:20260101T010718Z
 UID:evt-BSdjhffl5ZbWaRU@events.lu.ma
 CATEGORIES:ai
 DESCRIPTION:Get up-to-date information at: https://luma.com/11t1uq7i\n\nAd
@@ -2380,7 +2380,7 @@ BEGIN:VEVENT
 SUMMARY:PyTalavera|Python Charlas en Puebla + Networking|México|Puebla
 DTSTART:20251003T003000Z
 DTEND:20251003T040000Z
-DTSTAMP:20251231T231702Z
+DTSTAMP:20260101T010718Z
 UID:evt-08HHnd33m2zPbS5@events.lu.ma
 CATEGORIES:python
 DESCRIPTION:Get up-to-date information at: https://luma.com/cqpf8mm0\n\nAd
@@ -2396,7 +2396,7 @@ SUMMARY:Mexico Tech Week 2025|Invite Only. Xochimilco Emprelatam Founder T
  ime|Online
 DTSTART:20251018T170000Z
 DTEND:20251018T193000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-AjpUEBS2B3WK32z@events.lu.ma
 CATEGORIES:ai
 DESCRIPTION:Get up-to-date information at: https://luma.com/p85rhvxp\n\nAd
@@ -2410,7 +2410,7 @@ SUMMARY:Mexico Tech Week 2025|Mega Clase Gratuita de Inteligencia  Artific
  al|México|CDMX
 DTSTART:20251019T160000Z
 DTEND:20251019T190000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-gzfgkQDuYcjCeIM@events.lu.ma
 CATEGORIES:frontend
 DESCRIPTION:Get up-to-date information at: https://luma.com/6de4zsvg\n\nAd
@@ -2424,7 +2424,7 @@ BEGIN:VEVENT
 SUMMARY:Mexico Tech Week 2025|Parrilla con Amigos by Lazo & Cathay|Online
 DTSTART:20251019T183000Z
 DTEND:20251019T230000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-jDSZPzV2eCYZPc5@events.lu.ma
 CATEGORIES:ai
 DESCRIPTION:Get up-to-date information at: https://luma.com/u73z5qmi\n\nAd
@@ -2437,7 +2437,7 @@ BEGIN:VEVENT
 SUMMARY:Mexico Tech Week 2025|Startup Grind x Google: Pitch and Run|Online
 DTSTART:20251020T120000Z
 DTEND:20251020T140000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-Bk2FIsYIlPGp41v@events.lu.ma
 CATEGORIES:ai
 DESCRIPTION:Get up-to-date information at: https://luma.com/x5ricxbs\n\nAd
@@ -2450,7 +2450,7 @@ BEGIN:VEVENT
 SUMMARY:Mexico Tech Week 2025|HYROX - HYBRID CLASS @CARPE|México|CDMX
 DTSTART:20251020T120000Z
 DTEND:20251020T130000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-TQHux3UkT101Hph@events.lu.ma
 DESCRIPTION:Get up-to-date information at: https://luma.com/lq1rnyo7\n\nAd
  dress:\nCalz. Gral. Mariano Escobedo 726\nCiudad de México\, Ciudad de M
@@ -2464,7 +2464,7 @@ SUMMARY:Mexico Tech Week 2025|Breakfast and Bike Ride at Sunrise with Olym
  pian Cyclist Belem Guerrero by Capital One|Online
 DTSTART:20251020T123000Z
 DTEND:20251020T153000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-XKk0VaGL0QHu3jE@events.lu.ma
 CATEGORIES:ai,backend
 DESCRIPTION:Get up-to-date information at: https://luma.com/zg62fb5f\n\nAd
@@ -2478,9 +2478,9 @@ SUMMARY:Mexico Tech Week 2025|Investors & Founders Coffee Mixer by AWS + P
  YGMA + NXTP + Adamant|Online
 DTSTART:20251020T140000Z
 DTEND:20251020T160000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-Kv1tBK5mzuDTAFq@events.lu.ma
-CATEGORIES:python,ai,cloud
+CATEGORIES:ai,python,cloud
 DESCRIPTION:Get up-to-date information at: https://luma.com/ixkvvsmy\n\nAd
  dress:\nCheck event page for more details.\n\nHosted by Mexico Tech Week &
   5 others
@@ -2491,7 +2491,7 @@ BEGIN:VEVENT
 SUMMARY:Mexico Tech Week 2025|Frontiers of Reasoning: AI & Science|Online
 DTSTART:20251020T140000Z
 DTEND:20251020T160000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-IIPNirAk3c1lnGC@events.lu.ma
 CATEGORIES:ai
 DESCRIPTION:Get up-to-date information at: https://luma.com/xqvjg8eb\n\nAd
@@ -2505,7 +2505,7 @@ SUMMARY:Mexico Tech Week 2025|FemTech Mexico - Cumbre 2025 @ Mexico TechWe
  ek|Online
 DTSTART:20251020T143000Z
 DTEND:20251020T210000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-4X3ur8G6l2sRgoA@events.lu.ma
 CATEGORIES:ai
 DESCRIPTION:Get up-to-date information at: https://luma.com/FemTecMx2025\n
@@ -2518,7 +2518,7 @@ BEGIN:VEVENT
 SUMMARY:Mexico Tech Week 2025|Startups Festival - México|México|CDMX
 DTSTART:20251020T150000Z
 DTEND:20251020T210000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-XqhxiutCUS0PKnx@events.lu.ma
 DESCRIPTION:Get up-to-date information at: https://luma.com/yg5ruli0\n\nAd
  dress:\nLago Alberto 375\nCiudad de México\, Ciudad de México\nMexico\n\
@@ -2532,7 +2532,7 @@ SUMMARY:Mexico Tech Week 2025|Mexico Tech Week: Workout & Networking by Am
  ela / Carpe / Mujeres Inviertiendo|Online
 DTSTART:20251020T150000Z
 DTEND:20251020T173000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-RgDIbDSO5FNrskv@events.lu.ma
 CATEGORIES:ai
 DESCRIPTION:Get up-to-date information at: https://luma.com/nmp7f9n0\n\nAd
@@ -2545,7 +2545,7 @@ BEGIN:VEVENT
 SUMMARY:Mexico Tech Week 2025|MexaTh0n X Google|México|CDMX
 DTSTART:20251020T150000Z
 DTEND:20251022T000000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-7cBiaLhxhyhKxBp@events.lu.ma
 DESCRIPTION:Get up-to-date information at: https://luma.com/ry8nvk9c\n\nAd
  dress:\nGoogle Mexico City\nCiudad de México\, Ciudad de México\nMexico\
@@ -2560,7 +2560,7 @@ SUMMARY:Mexico Tech Week 2025|Moffin & 'Migos: Breakfast at Amazon|México
  |CDMX
 DTSTART:20251020T150000Z
 DTEND:20251020T170000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-5uaOT1a9ifPl6pq@events.lu.ma
 DESCRIPTION:Get up-to-date information at: https://luma.com/hhrxr7xn\n\nAd
  dress:\nAmazon México Oficinas\nCiudad de México\, Ciudad de México\nMe
@@ -2575,7 +2575,7 @@ SUMMARY:Mexico Tech Week 2025|Deloitte & McLaren Trackside Talks: From sim
  ulation to strategy in F1 | Powered by Endeavor|Online
 DTSTART:20251020T153000Z
 DTEND:20251020T173000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-tkQlYiiIrqbITKP@events.lu.ma
 CATEGORIES:ai
 DESCRIPTION:Get up-to-date information at: https://luma.com/y5afxwlt\n\nAd
@@ -2589,9 +2589,9 @@ SUMMARY:Mexico Tech Week 2025|AI: Governance & Responsibilities|México|CD
  MX
 DTSTART:20251020T160000Z
 DTEND:20251020T180000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-xgxOaBqYA8uqG6Y@events.lu.ma
-CATEGORIES:frontend,ai
+CATEGORIES:ai,frontend
 DESCRIPTION:Get up-to-date information at: https://luma.com/v1csyri8\n\nAd
  dress:\nCórdoba 42\nPiso 5 - Suite B\, viene a MIRAI\nCiudad de México\,
   Ciudad de México\nMexico\n\nHosted by Mexico Tech Week & 6 others
@@ -2604,7 +2604,7 @@ SUMMARY:Mexico Tech Week 2025|Latin America’s B2B tech landscape in the
  AI era|Online
 DTSTART:20251020T160000Z
 DTEND:20251020T190000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-K6BBHAtiFu2Klza@events.lu.ma
 CATEGORIES:ai
 DESCRIPTION:Get up-to-date information at: https://luma.com/q7hmwcva\n\nAd
@@ -2617,7 +2617,7 @@ BEGIN:VEVENT
 SUMMARY:Mexico Tech Week 2025|VC + Mariachi Sessions in Xochimilco|Online
 DTSTART:20251020T160000Z
 DTEND:20251020T203000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-9jEbdjtpE16pvR0@events.lu.ma
 CATEGORIES:ai
 DESCRIPTION:Get up-to-date information at: https://luma.com/lkus497c\n\nAd
@@ -2631,7 +2631,7 @@ SUMMARY:Mexico Tech Week 2025|Monday Brunch Breaks by Pluria: Tech That Br
  ings People Together|México|CDMX
 DTSTART:20251020T170000Z
 DTEND:20251020T190000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-S2ZCG0t5QMwZHUv@events.lu.ma
 DESCRIPTION:Get up-to-date information at: https://luma.com/w5b8uzk7\n\nAd
  dress:\nCoffeefy Workafe - Juárez\nCiudad de México\, Ciudad de México\
@@ -2645,7 +2645,7 @@ SUMMARY:Mexico Tech Week 2025|Energize Your Empire: Breathwork\, Kundalini
   Activation\, & Sound Healing|Online
 DTSTART:20251020T180000Z
 DTEND:20251020T210000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-8hPdDE6jjltvUzx@events.lu.ma
 CATEGORIES:ai
 DESCRIPTION:Get up-to-date information at: https://luma.com/iqkt5e8o\n\nAd
@@ -2659,7 +2659,7 @@ SUMMARY:Mexico Tech Week 2025|Zero to One: Building a Tech Company in Mexi
  co|México|CDMX
 DTSTART:20251020T180000Z
 DTEND:20251020T190000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-69GUSE1GKE9i4Z6@events.lu.ma
 CATEGORIES:frontend
 DESCRIPTION:Get up-to-date information at: https://luma.com/2um65vk3\n\nAd
@@ -2674,9 +2674,9 @@ SUMMARY:Mexico Tech Week 2025|Fintech Luncheon Vol.2 with Pygma\, MoFo\, G
  ilgamesh\, and Timbi|Online
 DTSTART:20251020T190000Z
 DTEND:20251020T213000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-hiwIeLQmU9mywVy@events.lu.ma
-CATEGORIES:python,ai
+CATEGORIES:ai,python
 DESCRIPTION:Get up-to-date information at: https://luma.com/w31kapnt\n\nAd
  dress:\nCheck event page for more details.\n\nHosted by Mexico Tech Week &
   3 others
@@ -2688,7 +2688,7 @@ SUMMARY:Mexico Tech Week 2025|From Lab to Life: BioWit’s HPV Detection P
  latform|México|CDMX
 DTSTART:20251020T190000Z
 DTEND:20251020T200000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-4b6PPA14x4uNj5Z@events.lu.ma
 DESCRIPTION:Get up-to-date information at: https://luma.com/ffozzgt9\n\nAd
  dress:\nYelizcalli\nCiudad de México\, Ciudad de México\nMexico\n\nHoste
@@ -2702,7 +2702,7 @@ SUMMARY:Mexico Tech Week 2025|[Private Event] - Bienvenida Oficial Casa Me
  xico Tech Week|Online
 DTSTART:20251020T203000Z
 DTEND:20251020T233000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-eUaZ5edW7bTHMqg@events.lu.ma
 CATEGORIES:ai
 DESCRIPTION:Get up-to-date information at: https://luma.com/je2qze0p\n\nAd
@@ -2716,9 +2716,9 @@ SUMMARY:Mexico Tech Week 2025|Build Your First AI Dashboard in 90 Minutes:
   Danu and AWS Experts Show the Full Process|México|CDMX
 DTSTART:20251020T210000Z
 DTEND:20251020T223000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-rtHucCJ0rDEVZPy@events.lu.ma
-CATEGORIES:frontend,ai,cloud
+CATEGORIES:ai,cloud,frontend
 DESCRIPTION:Get up-to-date information at: https://luma.com/jns5acew\n\nAd
  dress:\nPeriférico Blvrd Manuel Ávila Camacho 261\nAWS Offices Puerta Po
  lanco. Piso 5\nCiudad de México\, Ciudad de México\nMexico\n\nHosted by 
@@ -2732,7 +2732,7 @@ SUMMARY:Mexico Tech Week 2025|Tu primer empleo en el mundo Cloud: lo que n
  adie te dice|México|CDMX
 DTSTART:20251020T220000Z
 DTEND:20251021T000000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-AYygPPPHkyp6OIC@events.lu.ma
 CATEGORIES:cloud
 DESCRIPTION:Get up-to-date information at: https://luma.com/h5xk6j2e\n\nAd
@@ -2747,9 +2747,9 @@ SUMMARY:Mexico Tech Week 2025|Founders & Investors Speed Dating with Pygma
   & Google|Online
 DTSTART:20251020T220000Z
 DTEND:20251021T010000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-jXHLCguYAx22Y3F@events.lu.ma
-CATEGORIES:python,ai
+CATEGORIES:ai,python
 DESCRIPTION:Get up-to-date information at: https://luma.com/qsjwlxkq\n\nAd
  dress:\nCheck event page for more details.\n\nHosted by Mexico Tech Week &
   6 others
@@ -2761,7 +2761,7 @@ SUMMARY:Mexico Tech Week 2025|Unlocking Global Growth: The Role of EOR Sol
  utions in Scaling Tech Companies|México|CDMX
 DTSTART:20251020T220000Z
 DTEND:20251021T000000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-yDjxVsFQF7QcjqJ@events.lu.ma
 DESCRIPTION:Get up-to-date information at: https://luma.com/u1abgg73\n\nAd
  dress:\nTorre Médica Metropolitana Sucursal Condesa\nTorre Medica Metropo
@@ -2776,7 +2776,7 @@ BEGIN:VEVENT
 SUMMARY:Mexico Tech Week 2025|Factorial One AI Launch|México|CDMX
 DTSTART:20251020T220000Z
 DTEND:20251020T230000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-Zk92OaxmJxOcuax@events.lu.ma
 CATEGORIES:ai
 DESCRIPTION:Get up-to-date information at: https://luma.com/7scxlyn9\n\nAd
@@ -2790,7 +2790,7 @@ BEGIN:VEVENT
 SUMMARY:Mexico Tech Week 2025|Emprelatam Connect Day México|México|CDMX
 DTSTART:20251020T220000Z
 DTEND:20251021T020000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-8ppuba5KwDHYEat@events.lu.ma
 DESCRIPTION:Get up-to-date information at: https://luma.com/1uylfgn1\n\nAd
  dress:\nAv. P.º de la Reforma 180\nCiudad de México\, Ciudad de México\
@@ -2804,7 +2804,7 @@ SUMMARY:Mexico Tech Week 2025|Tesorerías de Bitcoin para Startups / Bitco
  in Treasuries for Startups|México|CDMX
 DTSTART:20251020T230000Z
 DTEND:20251021T010000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-bPyBe6moMNGb2WL@events.lu.ma
 DESCRIPTION:Get up-to-date information at: https://luma.com/BTC-TSY\n\nAdd
  ress:\nBBVA\nPiso 33\nCiudad de México\, Ciudad de México\nMexico\n\nHos
@@ -2818,7 +2818,7 @@ SUMMARY:Mexico Tech Week 2025|GBM | Investing Beyond Fintech & SaaS|Méxic
  o|CDMX
 DTSTART:20251020T230000Z
 DTEND:20251021T003000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-y89Dv3S27bChXuo@events.lu.ma
 DESCRIPTION:Get up-to-date information at: https://luma.com/vv4kpbri\n\nAd
  dress:\nTorre I\nForo GBM\nCiudad de México\, Ciudad de México\nMexico\n
@@ -2832,7 +2832,7 @@ SUMMARY:Mexico Tech Week 2025|AI Agents: Adoption in Mexico Panel & Mixer|
  Online
 DTSTART:20251020T230000Z
 DTEND:20251021T010000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-xAomuE98kRTJtxh@events.lu.ma
 CATEGORIES:ai
 DESCRIPTION:Get up-to-date information at: https://luma.com/u4r893tm\n\nAd
@@ -2845,9 +2845,9 @@ BEGIN:VEVENT
 SUMMARY:Mexico Tech Week 2025|Workshop: Building Products with AI|Online
 DTSTART:20251020T230000Z
 DTEND:20251021T020000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-nVXZLQ38DPjMOnF@events.lu.ma
-CATEGORIES:frontend,ai
+CATEGORIES:ai,frontend
 DESCRIPTION:Get up-to-date information at: https://luma.com/i1wws1f2\n\nAd
  dress:\nCheck event page for more details.\n\nHosted by Mexico Tech Week &
   3 others
@@ -2859,7 +2859,7 @@ SUMMARY:Mexico Tech Week 2025|VC Secondaries: Founders & Investors in Acti
  on|México|CDMX
 DTSTART:20251020T230000Z
 DTEND:20251021T020000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-qThx1kXXKsE1uXY@events.lu.ma
 CATEGORIES:security
 DESCRIPTION:Get up-to-date information at: https://luma.com/79jn787w\n\nAd
@@ -2874,7 +2874,7 @@ SUMMARY:Mexico Tech Week 2025|The Future of Human Identity in the Age of A
  rtificial Intelligence|Online
 DTSTART:20251020T230000Z
 DTEND:20251021T010000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-sc3rJL5ilsMYW6i@events.lu.ma
 CATEGORIES:ai
 DESCRIPTION:Get up-to-date information at: https://luma.com/ocoowjdj\n\nAd
@@ -2888,7 +2888,7 @@ SUMMARY:Mexico Tech Week 2025|Scale & Sip: Unit Economics + Happy Hour|Mé
  xico|CDMX
 DTSTART:20251020T233000Z
 DTEND:20251021T013000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-hNxXEK9IEFwtJ4R@events.lu.ma
 CATEGORIES:python
 DESCRIPTION:Get up-to-date information at: https://luma.com/n58rer3m\n\nAd
@@ -2903,9 +2903,9 @@ SUMMARY:Mexico Tech Week 2025|🏠 Casa de la comunidades Clara y AWS | Py
  thon CDMX|Online
 DTSTART:20251021T000000Z
 DTEND:20251021T033000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-xDK4MqFblFNH7Dw@events.lu.ma
-CATEGORIES:python,ai,cloud
+CATEGORIES:ai,python,cloud
 DESCRIPTION:Get up-to-date information at: https://luma.com/he7n0zm4\n\nAd
  dress:\nCheck event page for more details.\n\nHosted by Mexico Tech Week &
   9 others
@@ -2917,7 +2917,7 @@ SUMMARY:Mexico Tech Week 2025|Pachamama Ventures: Mexico Tech Week LP Dinn
  er|Online
 DTSTART:20251021T010000Z
 DTEND:20251021T030000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-Lm6tDRvUdtTNEcY@events.lu.ma
 CATEGORIES:ai
 DESCRIPTION:Get up-to-date information at: https://luma.com/pachamama_mx\n
@@ -2930,7 +2930,7 @@ BEGIN:VEVENT
 SUMMARY:Mexico Tech Week 2025|Kickoff Oficial Mexico Tech Week 2025|Online
 DTSTART:20251021T010000Z
 DTEND:20251021T040000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-whOHhWwjBWhIAEF@events.lu.ma
 CATEGORIES:ai
 DESCRIPTION:Get up-to-date information at: https://luma.com/irr96sj3\n\nAd
@@ -2943,7 +2943,7 @@ BEGIN:VEVENT
 SUMMARY:Mexico Tech Week 2025|Make Tech Sexy|México|CDMX
 DTSTART:20251021T010000Z
 DTEND:20251021T020000Z
-DTSTAMP:20251231T231701Z
+DTSTAMP:20260101T010718Z
 UID:evt-UIY52khb4Vkei8S@events.lu.ma
 DESCRIPTION:Get up-to-date information at: https://luma.com/dr9q1obl\n\nAd
  dress:\nHaab Project Condesa\nCiudad de México\, Ciudad de México\nMexic
@@ -2957,9 +2957,9 @@ SUMMARY:AI/IA CDMX|From Academia to AI Startup: Building a Virtual Friend
  for Mental Health|México|CDMX
 DTSTART:20251022T000000Z
 DTEND:20251022T020000Z
-DTSTAMP:20251231T231702Z
+DTSTAMP:20260101T010718Z
 UID:evt-IPTFkwXu4ee1fnA@events.lu.ma
-CATEGORIES:frontend,ai
+CATEGORIES:ai,frontend
 DESCRIPTION:Get up-to-date information at: https://luma.com/m3ypkblk\n\nAd
  dress:\nCasa Rafael Galvan\nCiudad de México\, Ciudad de México\nMexico\
  n\nHosted by Benjamin Ullrich
@@ -2972,7 +2972,7 @@ SUMMARY:AI/IA CDMX|Storycraft in the Age of AI with Danny Carissimi (Heads
  pace & TIO)|México|CDMX
 DTSTART:20251119T000000Z
 DTEND:20251119T020000Z
-DTSTAMP:20251231T231702Z
+DTSTAMP:20260101T010718Z
 UID:evt-sDfxinfvTGBHopa@events.lu.ma
 CATEGORIES:ai
 DESCRIPTION:Get up-to-date information at: https://luma.com/75tou6ro\n\nAd
@@ -2986,7 +2986,7 @@ BEGIN:VEVENT
 SUMMARY:Claude Users Group|Vibe Coding y Birria 🤙🌮|México|CDMX
 DTSTART:20251122T170000Z
 DTEND:20251122T210000Z
-DTSTAMP:20251231T231702Z
+DTSTAMP:20260101T010718Z
 UID:evt-AZxo5LsJAq7a2BV@events.lu.ma
 DESCRIPTION:Get up-to-date information at: https://luma.com/lhng23fu\n\nAd
  dress:\nRojo Birria\nCiudad de México\, Ciudad de México\nMexico\n\nHost
@@ -3000,7 +3000,7 @@ SUMMARY:AI/IA CDMX|Mind the Loop: Empowering AI Agents to Reason\, Decide\
  , and Do|México|CDMX
 DTSTART:20251210T000000Z
 DTEND:20251210T020000Z
-DTSTAMP:20251231T231702Z
+DTSTAMP:20260101T010718Z
 UID:evt-0IpxUb5kGk3PM8N@events.lu.ma
 CATEGORIES:ai
 DESCRIPTION:Get up-to-date information at: https://luma.com/mdeihhw6\n\nAd
@@ -3014,7 +3014,7 @@ BEGIN:VEVENT
 SUMMARY:PyTalavera|PyTalavera + Mixtli Posada|México|Puebla
 DTSTART:20251213T230000Z
 DTEND:20251214T040000Z
-DTSTAMP:20251231T231702Z
+DTSTAMP:20260101T010718Z
 UID:evt-9YgSf2jTxFDS6SJ@events.lu.ma
 CATEGORIES:python
 DESCRIPTION:Get up-to-date information at: https://luma.com/s3rpjdgx\n\nAd
@@ -3030,9 +3030,9 @@ SUMMARY:Kong Mexico City|How Kong Insomnia & AI-Ready APIs Are Shaping the
   Future of Digital Innovation|México|CDMX
 DTSTART;TZID=America/Mexico_City:20260108T100000
 DTEND;TZID=America/Mexico_City:20260108T110000
-DTSTAMP:20251231T231705Z
+DTSTAMP:20260101T010722Z
 UID:event_312478549@meetup.com
-CATEGORIES:frontend,security,ai,backend
+CATEGORIES:ai,backend,security,frontend
 CREATED:20251217T214920Z
 DESCRIPTION:Kong/MEXICO-CITY\nAPIs are at the heart of today’s AI and di
  gital transformation\, and Kong Insomnia is the essential tool for buildin
@@ -3063,9 +3063,9 @@ SUMMARY:Embajadoras Cloud|🚀 ¡Conviértete en AWS Community Builder!
  🚀|Online
 DTSTART;TZID=America/Mexico_City:20260108T180000
 DTEND;TZID=America/Mexico_City:20260108T190000
-DTSTAMP:20251231T231704Z
+DTSTAMP:20260101T010721Z
 UID:event_312586604@meetup.com
-CATEGORIES:mobile,frontend,cloud
+CATEGORIES:mobile,cloud,frontend
 CREATED:20251226T191049Z
 DESCRIPTION:Embajadoras Cloud\n📅 Fecha: 08 de enero de 2026\, 18:00hrs 
  (Mex)\, 19:00(Col)\n🌐 Modalidad: Virtual\n🌎 Para toda Latinoamérica
@@ -3096,9 +3096,9 @@ SUMMARY:Embajadoras Cloud|re:Cap re:Invent 2025 | AWS Community 🚀|piso
  5|amazon headquarters
 DTSTART;TZID=America/Mexico_City:20260115T180000
 DTEND;TZID=America/Mexico_City:20260115T200000
-DTSTAMP:20251231T231704Z
+DTSTAMP:20260101T010721Z
 UID:event_312461743@meetup.com
-CATEGORIES:mobile,frontend,cloud
+CATEGORIES:mobile,cloud,frontend
 CREATED:20251216T180304Z
 DESCRIPTION:Embajadoras Cloud\n**¿Quieres saber qué fue lo más relevant
  e de re:Invent 2025?**\n\nTe invitamos al re:Cap más esperado de re:Inven
@@ -3124,9 +3124,9 @@ SUMMARY:AI/IA CDMX|Cariño\, encogí el modelo - Honey\, I Shrunk the Mode
  l|México|CDMX
 DTSTART;TZID=America/Mexico_City:20260120T180000
 DTEND;TZID=America/Mexico_City:20260120T200000
-DTSTAMP:20251231T231702Z
+DTSTAMP:20260101T010719Z
 UID:event_311724520@meetup.com
-CATEGORIES:frontend,backend,security,ai,web
+CATEGORIES:ai,web,backend,frontend,security
 CREATED:20251027T014515Z
 DESCRIPTION:AI/IA CDMX (Ciudad de México Inteligencia Artificial)\nSpani
  sh with live English subtitles\nEste evento será en español con subtítu
@@ -3192,7 +3192,7 @@ SUMMARY:AI/IA CDMX|Campeón Peso Ligero IA para la Salud - Lightweight Cha
  mpion AI for Health|México|CDMX
 DTSTART:20260218T000000Z
 DTEND:20260218T020000Z
-DTSTAMP:20251231T231702Z
+DTSTAMP:20260101T010718Z
 UID:evt-g2eLqOmbJbDz66S@events.lu.ma
 CATEGORIES:ai
 DESCRIPTION:Get up-to-date information at: https://luma.com/vals4loe\n\nAd
@@ -3207,9 +3207,9 @@ SUMMARY:AI/IA CDMX|Campeón Peso Ligero IA para la Salud/Lightweight Champ
  ion AI for Health|México|CDMX
 DTSTART;TZID=America/Mexico_City:20260217T180000
 DTEND;TZID=America/Mexico_City:20260217T200000
-DTSTAMP:20251231T231702Z
+DTSTAMP:20260101T010719Z
 UID:event_312655797@meetup.com
-CATEGORIES:data,frontend,backend,cloud,ai,mobile
+CATEGORIES:ai,cloud,backend,data,frontend,mobile
 CREATED:20251231T204656Z
 DESCRIPTION:AI/IA CDMX (Ciudad de México Inteligencia Artificial)\nSpani
  sh with live English subtitles\nEste evento será en español con subtítu
@@ -3315,7 +3315,7 @@ BEGIN:VEVENT
 SUMMARY:AI/IA CDMX|To Be Announced/Por anunciar|México|CDMX
 DTSTART;TZID=America/Mexico_City:20260317T180000
 DTEND;TZID=America/Mexico_City:20260317T200000
-DTSTAMP:20251231T231702Z
+DTSTAMP:20260101T010719Z
 UID:event_lwpsttyjcfbwb@meetup.com
 CATEGORIES:ai
 CREATED:20251104T040708Z
@@ -3334,7 +3334,7 @@ BEGIN:VEVENT
 SUMMARY:AI/IA CDMX|To Be Announced/Por anunciar|México|CDMX
 DTSTART;TZID=America/Mexico_City:20260421T180000
 DTEND;TZID=America/Mexico_City:20260421T200000
-DTSTAMP:20251231T231702Z
+DTSTAMP:20260101T010719Z
 UID:event_lwpsttyjcgbcc@meetup.com
 CATEGORIES:ai
 CREATED:20251104T040708Z
@@ -3353,7 +3353,7 @@ BEGIN:VEVENT
 SUMMARY:AI/IA CDMX|To Be Announced/Por anunciar|México|CDMX
 DTSTART;TZID=America/Mexico_City:20260519T180000
 DTEND;TZID=America/Mexico_City:20260519T200000
-DTSTAMP:20251231T231702Z
+DTSTAMP:20260101T010719Z
 UID:event_lwpsttyjchbzb@meetup.com
 CATEGORIES:ai
 CREATED:20251104T040708Z
@@ -3372,7 +3372,7 @@ BEGIN:VEVENT
 SUMMARY:AI/IA CDMX|To Be Announced/Por anunciar|México|CDMX
 DTSTART;TZID=America/Mexico_City:20260616T180000
 DTEND;TZID=America/Mexico_City:20260616T200000
-DTSTAMP:20251231T231702Z
+DTSTAMP:20260101T010719Z
 UID:event_lwpsttyjcjbvb@meetup.com
 CATEGORIES:ai
 CREATED:20251104T040708Z
@@ -3391,7 +3391,7 @@ BEGIN:VEVENT
 SUMMARY:AI/IA CDMX|To Be Announced/Por anunciar|México|CDMX
 DTSTART;TZID=America/Mexico_City:20260721T180000
 DTEND;TZID=America/Mexico_City:20260721T200000
-DTSTAMP:20251231T231702Z
+DTSTAMP:20260101T010719Z
 UID:event_lwpsttyjckbcc@meetup.com
 CATEGORIES:ai
 CREATED:20251104T040708Z
@@ -3410,7 +3410,7 @@ BEGIN:VEVENT
 SUMMARY:AI/IA CDMX|To Be Announced/Por anunciar|México|CDMX
 DTSTART;TZID=America/Mexico_City:20260818T180000
 DTEND;TZID=America/Mexico_City:20260818T200000
-DTSTAMP:20251231T231702Z
+DTSTAMP:20260101T010719Z
 UID:event_lwpsttyjclbxb@meetup.com
 CATEGORIES:ai
 CREATED:20251104T040708Z
@@ -3429,7 +3429,7 @@ BEGIN:VEVENT
 SUMMARY:AI/IA CDMX|To Be Announced/Por anunciar|México|CDMX
 DTSTART;TZID=America/Mexico_City:20260915T180000
 DTEND;TZID=America/Mexico_City:20260915T200000
-DTSTAMP:20251231T231702Z
+DTSTAMP:20260101T010719Z
 UID:event_lwpsttyjcmbtb@meetup.com
 CATEGORIES:ai
 CREATED:20251104T040708Z
@@ -3448,7 +3448,7 @@ BEGIN:VEVENT
 SUMMARY:AI/IA CDMX|To Be Announced/Por anunciar|México|CDMX
 DTSTART;TZID=America/Mexico_City:20261020T180000
 DTEND;TZID=America/Mexico_City:20261020T200000
-DTSTAMP:20251231T231702Z
+DTSTAMP:20260101T010719Z
 UID:event_lwpsttyjcnbbc@meetup.com
 CATEGORIES:ai
 CREATED:20251104T040708Z
